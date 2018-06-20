@@ -207,7 +207,7 @@ h6,
 .h5,
 .h6 {
     font-family: 'Raleway', sans-serif;
-    color       : #888888;
+    color       : #555;
     margin      : 0;
   }
 
@@ -268,7 +268,7 @@ h4 {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color                      :#919191;
+    color                      :#666;
     font-weight                : 400;
     font-style                 : normal;
     font-size                  : 1rem;
@@ -356,7 +356,7 @@ body {
     margin-bottom: 0;
     padding:15px 0;
     font-weight:600;
-    color: #888888;
+    color: #555;
 }
 .main-nav li > a:hover, .main-nav li > a:focus{
     color:#6c6c6c;
