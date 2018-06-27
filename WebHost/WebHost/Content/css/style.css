@@ -286,6 +286,13 @@ body {
 .wrapper{
   background:#fff;
 }
+
+.compensate-for-scrollbar
+{
+    margin: 0 !important;
+    overflow-y: auto !important;
+}
+
 .header-top{
   background: #ffffff;
   padding: 5px 0 5px 0;
@@ -736,6 +743,34 @@ offcanvas-menu
   border-bottom: 2px solid rgb(111,30,130);
 }
 
+.gallery-item{
+  position: relative;
+  margin-bottom:2.1em;
+}
+/*.gallery-item::before{
+  content: " ";
+  position: absolute;
+  width:100%;
+  height: 100%;
+  left:0;
+  top:0;
+  background: #3c4461;
+  opacity: 0;
+  -webkit-transition : all 0.3s ease 0s;
+  -moz-transition    : all 0.3s ease 0s;
+  -o-transition      : all 0.3s ease 0s;
+  transition         : all 0.3s ease 0s;
+}
+    */
+.gallery-item:hover{
+  background: #3c4461;
+  opacity: 0.7;
+  -webkit-transition : all 0.3s ease 0s;
+  -moz-transition    : all 0.3s ease 0s;
+  -o-transition      : all 0.3s ease 0s;
+  transition         : all 0.3s ease 0s;
+}
+
 .service-item{
   position: relative;
   margin-bottom:2.1em;
@@ -758,6 +793,7 @@ offcanvas-menu
 .service-item:hover::before{
   opacity: .9;
 }
+
 .service-description{
   position: absolute;
   left:0;
