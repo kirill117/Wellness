@@ -200,6 +200,8 @@
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\img\about.jpg" />
+    <Content Include="Content\img\about1.jpg" />
+    <Content Include="Content\img\about2.jpg" />
     <Content Include="Content\img\client1.jpg" />
     <Content Include="Content\img\client2.jpg" />
     <Content Include="Content\img\client3.jpg" />
@@ -211,6 +213,42 @@
     <Content Include="Content\img\clients\client3.jpg" />
     <Content Include="Content\img\clients\client4.jpg" />
     <Content Include="Content\img\clients\client5.jpg" />
+    <Content Include="Content\img\gallery\generium\1_1.JPG" />
+    <Content Include="Content\img\gallery\generium\1_2.jpg" />
+    <Content Include="Content\img\gallery\generium\2_1.JPG" />
+    <Content Include="Content\img\gallery\generium\2_2.jpg" />
+    <Content Include="Content\img\gallery\generium\3_1.JPG" />
+    <Content Include="Content\img\gallery\generium\3_2.jpg" />
+    <Content Include="Content\img\gallery\generium\4_1.JPG" />
+    <Content Include="Content\img\gallery\generium\4_2.jpg" />
+    <Content Include="Content\img\gallery\generium\5_1.JPG" />
+    <Content Include="Content\img\gallery\generium\5_2.jpg" />
+    <Content Include="Content\img\gallery\generium\6_1.JPG" />
+    <Content Include="Content\img\gallery\generium\6_2.jpg" />
+    <Content Include="Content\img\gallery\generium\7_1.JPG" />
+    <Content Include="Content\img\gallery\generium\7_2.jpg" />
+    <Content Include="Content\img\gallery\generium\8_1.JPG" />
+    <Content Include="Content\img\gallery\generium\8_2.jpg" />
+    <Content Include="Content\img\gallery\generium\9_1.JPG" />
+    <Content Include="Content\img\gallery\generium\9_2.jpg" />
+    <Content Include="Content\img\gallery\penza\1_1.JPG" />
+    <Content Include="Content\img\gallery\penza\1_2.jpg" />
+    <Content Include="Content\img\gallery\penza\2_1.JPG" />
+    <Content Include="Content\img\gallery\penza\2_2.jpg" />
+    <Content Include="Content\img\gallery\penza\3_1.JPG" />
+    <Content Include="Content\img\gallery\penza\3_2.jpg" />
+    <Content Include="Content\img\gallery\penza\4_1.JPG" />
+    <Content Include="Content\img\gallery\penza\4_2.jpg" />
+    <Content Include="Content\img\gallery\penza\5_1.JPG" />
+    <Content Include="Content\img\gallery\penza\5_2.jpg" />
+    <Content Include="Content\img\gallery\penza\6_1.JPG" />
+    <Content Include="Content\img\gallery\penza\6_2.jpg" />
+    <Content Include="Content\img\gallery\penza\7_1.JPG" />
+    <Content Include="Content\img\gallery\penza\7_2.jpg" />
+    <Content Include="Content\img\gallery\penza\8_1.JPG" />
+    <Content Include="Content\img\gallery\penza\8_2.jpg" />
+    <Content Include="Content\img\gallery\penza\9_1.JPG" />
+    <Content Include="Content\img\gallery\penza\9_2.jpg" />
     <Content Include="Content\img\logo.jpg" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\logo_b.png" />
@@ -315,7 +353,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\img\gallery\1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
