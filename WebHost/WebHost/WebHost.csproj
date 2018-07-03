@@ -263,11 +263,17 @@
     <Content Include="Content\img\service\commercial6.jpg" />
     <Content Include="Content\img\service\service-heater.jpg" />
     <Content Include="Content\img\service\service1.jpg" />
+    <Content Include="Content\img\service\service10.jpg" />
+    <Content Include="Content\img\service\service11.jpg" />
+    <Content Include="Content\img\service\service12.jpg" />
     <Content Include="Content\img\service\service2.jpg" />
     <Content Include="Content\img\service\service3.jpg" />
     <Content Include="Content\img\service\service4.jpg" />
     <Content Include="Content\img\service\service5.jpg" />
     <Content Include="Content\img\service\service6.jpg" />
+    <Content Include="Content\img\service\service7.jpg" />
+    <Content Include="Content\img\service\service8.jpg" />
+    <Content Include="Content\img\service\service9.jpg" />
     <Content Include="Content\img\slide1.jpg" />
     <Content Include="Content\img\slide2.jpg" />
     <Content Include="Content\img\slide3.jpg" />
