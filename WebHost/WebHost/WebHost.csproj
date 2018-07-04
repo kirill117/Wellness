@@ -258,6 +258,12 @@
     <Content Include="Content\img\service\commercial1.jpg" />
     <Content Include="Content\img\service\commercial2.jpg" />
     <Content Include="Content\img\service\commercial3.jpg" />
+    <Content Include="Content\img\service\private1.jpg" />
+    <Content Include="Content\img\service\private2.jpg" />
+    <Content Include="Content\img\service\private3.jpg" />
+    <Content Include="Content\img\service\private4.jpg" />
+    <Content Include="Content\img\service\private5.jpg" />
+    <Content Include="Content\img\service\private6.jpg" />
     <Content Include="Content\img\service\service1.jpg" />
     <Content Include="Content\img\service\service10.jpg" />
     <Content Include="Content\img\service\service11.jpg" />
