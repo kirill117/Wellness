@@ -203,7 +203,19 @@
     <Content Include="Content\img\about.jpg" />
     <Content Include="Content\img\about1.jpg" />
     <Content Include="Content\img\about2.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\Arthur.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\ArthurMH.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\IwoKlassik.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\IwoReflex.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\IwoRubin.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\IwoTrend.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\IwoTrendMH.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\Kjeld.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\KjeldMH.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\LoraBanja.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\LoraRobust.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\Skult.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\Troll.jpg" />
     <Content Include="Content\img\client1.jpg" />
     <Content Include="Content\img\client2.jpg" />
     <Content Include="Content\img\client3.jpg" />
@@ -215,6 +227,7 @@
     <Content Include="Content\img\clients\client3.jpg" />
     <Content Include="Content\img\clients\client4.jpg" />
     <Content Include="Content\img\clients\client5.jpg" />
+    <Content Include="Content\img\furnace.jpg" />
     <Content Include="Content\img\gallery\generium\1_1.JPG" />
     <Content Include="Content\img\gallery\generium\1_2.jpg" />
     <Content Include="Content\img\gallery\generium\2_1.JPG" />
@@ -255,6 +268,7 @@
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\logo_b.png" />
     <Content Include="Content\img\mission.jpg" />
+    <Content Include="Content\img\premiumLine.jpg" />
     <Content Include="Content\img\quote-bg.jpg" />
     <Content Include="Content\img\searchicon.png" />
     <Content Include="Content\img\service\commercial1.jpg" />
@@ -281,6 +295,7 @@
     <Content Include="Content\img\slide1.jpg" />
     <Content Include="Content\img\slide2.jpg" />
     <Content Include="Content\img\slide3.jpg" />
+    <Content Include="Content\img\standardLine.jpg" />
     <Content Include="Content\img\vision.jpg" />
     <Content Include="Content\img\welcome.jpg" />
     <Content Include="Content\js\bootstrap.min.js" />
