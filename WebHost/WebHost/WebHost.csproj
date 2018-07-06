@@ -168,6 +168,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CatalogController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ServiceController.cs" />
@@ -202,6 +203,7 @@
     <Content Include="Content\img\about.jpg" />
     <Content Include="Content\img\about1.jpg" />
     <Content Include="Content\img\about2.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\IwoKlassik.jpg" />
     <Content Include="Content\img\client1.jpg" />
     <Content Include="Content\img\client2.jpg" />
     <Content Include="Content\img\client3.jpg" />
@@ -358,6 +360,7 @@
     <Content Include="Views\Service\Design.cshtml" />
     <Content Include="Views\Service\Maintenance.cshtml" />
     <Content Include="Views\Service\Construction.cshtml" />
+    <Content Include="Views\Catalog\Furnaces.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

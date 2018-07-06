@@ -146,6 +146,10 @@ fieldset {
     padding : 0;
     }
 
+p {
+    text-align: justify;
+}
+
 /*
    * Allow only vertical resizing of textareas.
    */
@@ -303,9 +307,14 @@ body {
 }
 
 .header-connection{
-  text-align: right;
+  text-align: right !important;
   line-height: 1.5em;
 }
+
+.header-connection p {
+    text-align: right !important;
+}
+
 .header-top strong{
   color:#55595d;
  }
@@ -702,7 +711,7 @@ offcanvas-menu
   border: 1px solid rgba(0, 0, 0, .05);
   border-left:0;
   border-right:0;
-  margin-bottom: 5em;
+  margin-bottom: 5px;
 }
 .service-section li:first-child{
   font-size: 1.571em;
@@ -723,7 +732,7 @@ offcanvas-menu
     border-radius: 0;
     border: 0;
     margin: 0;
-    color: #888888;
+    color: #ffd800;
     font-weight: bold;
     font-size: 1.571rem;
     text-transform: uppercase;
@@ -926,6 +935,10 @@ offcanvas-menu
   padding: 7em 20em;
   text-align: center; 
 }
+.quote p {
+  text-align: center; 
+}
+
 .quote h2{
   color:#ffffff;
   line-height: 2em;
@@ -1102,8 +1115,34 @@ color:#dddddd;
 }
 .history-details p{
   margin:0 0 2em ;
+  text-align:justify;
 }
 
+/*---------------------------
+ catalog
+---------------------------*/
+
+.catalog-item-title {
+    font-size: 1.6em;
+    border:solid 1px #e8e8e8;
+    padding: 10px;
+    margin: 55px 15px 0px 15px;
+}
+
+.catalog-item-price {
+    text-align:center;
+}
+
+.catalog-item-price p {
+    font-size: 1.3em;
+    border-bottom:solid 1px #e8e8e8;
+    font-weight:700;
+    text-align:center;
+}
+
+.catalog-item-description li {
+    margin-bottom: 5px;
+}
 
 /*----------------------------------------------
  company-focus style
