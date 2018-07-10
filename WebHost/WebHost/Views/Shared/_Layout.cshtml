@@ -121,7 +121,6 @@ head
                                                 <li><a href="~/home/gallery">Портфолио</a></li>
                                                 <li><a href="~/home/about">О компании</a></li>
                                                 <li><a href="~/home/contact">Контакты</a></li>
-
                                             </ul>
                                             <!-- /navbar-nav -->
 
@@ -371,17 +370,62 @@ head
             <div>
                 <div>
                     <ul id="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="service.html">Services</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="contact.html">Contact us</a></li>
-                        <li><a href="contact.html">Quote</a></li>
+                        <li class="dropdown">
+                            <a href="#">Каталог</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Модульные сауны</a></li>
+                                <li><a href="#">Мини бассейны и СПА</a></li>
+                                <li><a href="~/Catalog/Furnaces">Печи для саун и бань</a></li>
+                                <li><a href="#">Парогенераторы</a></li>
+                                <li><a href="#">Снежные комнаты и льдогенераторы</a></li>
+                                <li><a href="#">Аксессуары</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Услуги</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/Service/Design">Проектирование</a></li>
+                                <li><a href="~/Service/Construction">Строительство</a></li>
+                                <li><a href="~/Service/Maintenance">Сервисное обслуживание</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="~/home/gallery">Портфолио</a></li>
+                        <li><a href="~/home/about">О компании</a></li>
+                        <li><a href="~/home/contact">Контакты</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <!-- offcanvas-menu end -->
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="dialog-order" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Форма заказа</h4>
+                        <p>Оставьте заявку на сайте и наши специалисты ответитят Вам в ближайшее время</p>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="main-contact-form">
+                                    <input type="text" id="full-name" name="name" placeholder="Ваше имя">
+                                    <input type="email" id="email" name="email" placeholder="Email">
+                                    <input type="text" id="subject" name="subject" placeholder="Ваш заказ">
+                                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Комментарий к заказу"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-send-order">Отправить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- #wrapper -->
     <!-- =========================================

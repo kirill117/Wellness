@@ -79,6 +79,25 @@ jQuery(function ($) {
         });
     }());
 
+    // -------------------------------------------------------------
+    //  нопка заказать
+    // -------------------------------------------------------------
+    (function () {
+        $('.btn-order').on('click', function (e) {
+            e.preventDefault();
+            $("#dialog-order").modal();
+            $('body').removeClass('modal-open');
+            $('body').css('padding-right','0');
+        });
+    }());
+
+    (function () {
+        $('.btn-send-order').on('click', function (e) {
+            e.preventDefault();
+            $("#dialog-order").modal('hide');
+        });
+    }());
+
     //-------------------------------------------------------
     // Owl-carousel/Client-carousel
     //--------------------------------------------------

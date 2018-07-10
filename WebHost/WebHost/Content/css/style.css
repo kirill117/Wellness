@@ -1349,11 +1349,11 @@ color:#dddddd;
 
 #full-name{
   width: 48%;
-  margin-right:1em;
+  margin-right: 9px;
 }
 #email{
   width: 48%;
-  margin-left:.8em;
+  margin-left: 9px;
 }
 .main-contact-form input[type=submit]{
     margin-top: 2em;
