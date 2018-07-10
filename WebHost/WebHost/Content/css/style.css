@@ -622,6 +622,12 @@ offcanvas-menu
     height: 500px;
 }
 
+@media(max-width: 1450px) {
+    .carousel-inner {
+    height: 400px;
+    }
+}
+
 .carousel-caption{
     right: 5%;
     left: 49%;
