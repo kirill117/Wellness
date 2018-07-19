@@ -301,6 +301,7 @@
     <Content Include="Content\img\slide1.jpg" />
     <Content Include="Content\img\slide2.jpg" />
     <Content Include="Content\img\slide3.jpg" />
+    <Content Include="Content\img\spa.jpg" />
     <Content Include="Content\img\standardLine.jpg" />
     <Content Include="Content\img\vision.jpg" />
     <Content Include="Content\img\welcome.jpg" />
@@ -330,6 +331,7 @@
     <Content Include="Content\fonts\Raleway-Bold.ttf" />
     <Content Include="Content\fonts\Raleway-Medium.ttf" />
     <Content Include="Content\fonts\Raleway-Regular.ttf" />
+    <Content Include="Content\docs\spa_VB.pdf" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -382,6 +384,7 @@
     <Content Include="Views\Service\Maintenance.cshtml" />
     <Content Include="Views\Service\Construction.cshtml" />
     <Content Include="Views\Catalog\Furnaces.cshtml" />
+    <Content Include="Views\Catalog\Spa.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
