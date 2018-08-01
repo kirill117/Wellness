@@ -270,6 +270,7 @@
     <Content Include="Content\img\gallery\penza\8_2.jpg" />
     <Content Include="Content\img\gallery\penza\9_1.JPG" />
     <Content Include="Content\img\gallery\penza\9_2.jpg" />
+    <Content Include="Content\img\icegen.jpg" />
     <Content Include="Content\img\logo.jpg" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\logo_b.png" />
@@ -385,6 +386,7 @@
     <Content Include="Views\Service\Construction.cshtml" />
     <Content Include="Views\Catalog\Furnaces.cshtml" />
     <Content Include="Views\Catalog\Spa.cshtml" />
+    <Content Include="Views\Catalog\IceGenerators.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
