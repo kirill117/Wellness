@@ -17,5 +17,10 @@ namespace WebHost.Controllers
         {
             return View();
         }
+
+        public ActionResult IceGenerators()
+        {
+            return View();
+        }
     }
 }

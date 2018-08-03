@@ -182,6 +182,10 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\bootstrap.min.css" />
@@ -270,6 +274,7 @@
     <Content Include="Content\img\gallery\penza\8_2.jpg" />
     <Content Include="Content\img\gallery\penza\9_1.JPG" />
     <Content Include="Content\img\gallery\penza\9_2.jpg" />
+    <Content Include="Content\img\icegen.jpg" />
     <Content Include="Content\img\logo.jpg" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\logo_b.png" />
@@ -301,10 +306,14 @@
     <Content Include="Content\img\slide1.jpg" />
     <Content Include="Content\img\slide2.jpg" />
     <Content Include="Content\img\slide3.jpg" />
+    <Content Include="Content\img\snowroom.jpg" />
     <Content Include="Content\img\spa.jpg" />
     <Content Include="Content\img\standardLine.jpg" />
     <Content Include="Content\img\vision.jpg" />
     <Content Include="Content\img\welcome.jpg" />
+    <Content Include="Content\js\bootstrap.bundle.js" />
+    <Content Include="Content\js\bootstrap.bundle.min.js" />
+    <Content Include="Content\js\bootstrap.js" />
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Content\js\easing.js" />
     <Content Include="Content\js\hippo-off-canvas.js" />
@@ -385,6 +394,7 @@
     <Content Include="Views\Service\Construction.cshtml" />
     <Content Include="Views\Catalog\Furnaces.cshtml" />
     <Content Include="Views\Catalog\Spa.cshtml" />
+    <Content Include="Views\Catalog\IceGenerators.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

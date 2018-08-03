@@ -1,4 +1,5 @@
 .logs
+.suo
 Logs
 bin
 obj
