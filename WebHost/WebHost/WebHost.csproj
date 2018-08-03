@@ -182,10 +182,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-grid.css" />
-    <Content Include="Content\bootstrap-grid.min.css" />
-    <Content Include="Content\bootstrap-reboot.css" />
-    <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\bootstrap.min.css" />
@@ -274,6 +270,24 @@
     <Content Include="Content\img\gallery\penza\8_2.jpg" />
     <Content Include="Content\img\gallery\penza\9_1.JPG" />
     <Content Include="Content\img\gallery\penza\9_2.jpg" />
+    <Content Include="Content\img\gallery\sokolniky\1_1.JPG" />
+    <Content Include="Content\img\gallery\sokolniky\1_2.jpg" />
+    <Content Include="Content\img\gallery\sokolniky\2_1.JPG" />
+    <Content Include="Content\img\gallery\sokolniky\2_2.jpg" />
+    <Content Include="Content\img\gallery\sokolniky\3_1.JPG" />
+    <Content Include="Content\img\gallery\sokolniky\3_2.jpg" />
+    <Content Include="Content\img\gallery\sokolniky\4_1.JPG" />
+    <Content Include="Content\img\gallery\sokolniky\4_2.jpg" />
+    <Content Include="Content\img\gallery\sokolniky\5_1.JPG" />
+    <Content Include="Content\img\gallery\sokolniky\5_2.jpg" />
+    <Content Include="Content\img\gallery\sokolniky\6_1.JPG" />
+    <Content Include="Content\img\gallery\sokolniky\6_2.jpg" />
+    <Content Include="Content\img\gallery\sokolniky\7_1.JPG" />
+    <Content Include="Content\img\gallery\sokolniky\7_2.jpg" />
+    <Content Include="Content\img\gallery\sokolniky\8_1.JPG" />
+    <Content Include="Content\img\gallery\sokolniky\8_2.jpg" />
+    <Content Include="Content\img\gallery\sokolniky\9_1.JPG" />
+    <Content Include="Content\img\gallery\sokolniky\9_2.jpg" />
     <Content Include="Content\img\icegen.jpg" />
     <Content Include="Content\img\logo.jpg" />
     <Content Include="Content\img\logo.png" />
@@ -311,9 +325,6 @@
     <Content Include="Content\img\standardLine.jpg" />
     <Content Include="Content\img\vision.jpg" />
     <Content Include="Content\img\welcome.jpg" />
-    <Content Include="Content\js\bootstrap.bundle.js" />
-    <Content Include="Content\js\bootstrap.bundle.min.js" />
-    <Content Include="Content\js\bootstrap.js" />
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Content\js\easing.js" />
     <Content Include="Content\js\hippo-off-canvas.js" />
