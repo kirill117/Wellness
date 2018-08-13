@@ -259,6 +259,11 @@ h4 {
     transition                 : all 0.3s ease 0s;
 }
 
+table > tbody > tr > td > .btn {
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
 .btn:hover, .btn-default:hover{
     background: #3c4461;
     color:#ffffff;
@@ -1351,6 +1356,10 @@ color:#dddddd;
     padding: 0 1.5em;
     margin-bottom: 2.2em;
     border: 1px solid #e8e8e8;
+}
+
+.table > thead > tr > th {
+    vertical-align: middle;
 }
 
 #full-name{
