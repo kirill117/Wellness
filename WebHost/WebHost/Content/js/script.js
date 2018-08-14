@@ -94,7 +94,34 @@ jQuery(function ($) {
     (function () {
         $('.btn-send-order').on('click', function (e) {
             e.preventDefault();
+
+            var frm = $("#dialog-order").find('.main-contact-form');
+
             $("#dialog-order").modal('hide');
+
+            $.ajax({
+                type: 'POST',
+                url: '/Home/GetRecall',
+                data:
+                {
+                    name: frm.find('#full-name').val(),
+                    phone: frm.find('#phone').val(),
+                    email: frm.find('#email').val(),
+                    comment: '',
+                    subcomment: frm.find('#subject').val(),
+                    textbody: frm.find("#message").val()
+                },
+                success: function (content) {
+
+                },
+                traditional: true,
+                dataType: 'json'
+            });
+
+            frm.find('input[type="text"], input[type="email"], textarea').each(function () {
+                $(this).val('');
+            });
+
         });
     }());
 
