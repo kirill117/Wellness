@@ -94,12 +94,18 @@ Develop by: uiCookies.com
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Gothic';
+  src:  url('../fonts/Gothic.ttf') format('truetype');
+}
+
+
 html,
 button,
 input,
 select,
 textarea {
-    color : #5555555;
+    color : #555555;
     }
 
 html {
@@ -210,7 +216,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: Gothic, 'Raleway', sans-serif;
     color       : #555;
     margin      : 0;
   }
@@ -276,7 +282,7 @@ table > tbody > tr > td > .btn {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Gothic, 'Open Sans', sans-serif;
     color                      :#666;
     font-weight                : 400;
     font-style                 : normal;
@@ -1017,9 +1023,10 @@ color:#dddddd;
 .news li{
     margin-bottom: 1em;
 }
-.news p{
-  margin:0;
-  line-height: 1.5em;
+.news p {
+    text-align:left;
+    margin:0;
+    line-height: 1.5em;
 }
 .responsability ul li{
   margin:0 0 .3em 0;
@@ -1091,10 +1098,11 @@ color:#dddddd;
   breadcrumb-area
 -----------------------------------------------*/
 .breadcrumb-area{
-  background: #3c4461;
+  /*background: #3c4461;*/
+  border-bottom: solid 1px rgba(0, 0, 0, .05)
 }
 .page-title h2{
-  color: #ffffff;
+  /*color: #ffffff;*/
   font-size: 1.786rem;
   font-weight:700;
   text-transform: uppercase;
@@ -1106,7 +1114,7 @@ color:#dddddd;
 }
 .breadcrumb a, 
 .breadcrumb>.active{
-  color: #ffffff;
+  /*color: #ffffff;*/
 }
 
 /*---------------------------------------------

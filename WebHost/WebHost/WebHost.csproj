@@ -356,6 +356,7 @@
     <Content Include="Content\fonts\Raleway-Medium.ttf" />
     <Content Include="Content\fonts\Raleway-Regular.ttf" />
     <Content Include="Content\docs\spa_VB.pdf" />
+    <Content Include="Content\fonts\GOTHIC.TTF" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
