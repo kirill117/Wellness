@@ -18,6 +18,11 @@ namespace WebHost.Controllers
             return View();
         }
 
+        public ActionResult Sauna()
+        {
+            return View();
+        }
+
         public ActionResult IceGenerators()
         {
             return View();

@@ -1,0 +1,77 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $('#slider').nivoSlider({
+            directionNav: true,
+            directionNavHide: false,
+            controlNav: false,
+            controlNavThumbs: false
+        });
+    });
+</script>
+
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-title">
+                    <h2>Модульные сауны</h2>
+                    <ul class="breadcrumb">
+                        <li><a href="~/Home/Index">Главная</a></li>
+                        <li class="">Каталог</li>
+                        <li class="active">Сауны</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- .row-->
+    </div>
+    <!-- .container-->
+</div>
+<!-- .breadcrumb-area-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="history">
+                <h3>Модульные сауны STARPOOL®</h3>
+                <div class="history-details">
+                    <div class="pull-left" style="width: 48%;height:600px;margin-right:30px;">
+                        <div id="slider" class="theme-default nivoSlider">
+                            <img src="~/Content/img/sauna1.jpg" alt="">
+                            <img src="~/Content/img/sauna2.jpg" alt="">
+                            <img src="~/Content/img/sauna3.jpg" alt="">
+                        </div>
+                    </div>
+                    <p>
+                        Модульная сауна - современное и практичное решение для вашего дома или участка.
+                        Благодаря каркасной основе, время сбора сауны не составит больше 2-3 дней, что принесёт минимальные неудобства для жителей вашего дома.
+                    </p>
+                    <p>
+                        Высокое качество материалов обшивки добавят уют и элегантность в вашу сауну.
+                    </p>
+                    <p>
+                        Помимо готовых примеров, мы можем предложить вам индивидуальный дизайн.
+                    </p>
+                    <p>
+                        В ходе разработки дизайна, бригада наших специалистов произведёт все нужные обмеры, а профессиональные дизайнеры помогут определиться с материалами и общим стилем сауны.
+                    </p>
+                    <p>
+                        <ul>
+                            <li><a href="#">● SWEET SAUNA 90</a></li>
+                            <li><a href="#">● SWEET SAUNA PRO </a></li>
+                            <li><a href="#">● SWEET SAUNA SMART</a></li>
+                            <li><a href="#">● SWEET SAUND SMART INFRARED</a></li>
+                            <li><a href="#">● SWEET SAUNA INFRARED / 90 COMBI</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .row-->
+</div>
+<!-- .container-->

@@ -193,6 +193,24 @@
     <Content Include="Content\css\carusel\jquery.carousel-3d.default.css" />
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\css\grabbing.png" />
+    <Content Include="Content\css\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\css\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\css\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\css\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\css\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\css\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\css\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\css\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\css\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\css\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\css\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\css\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\css\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\css\nivo\arrows.png" />
+    <Content Include="Content\css\nivo\bullets.png" />
+    <Content Include="Content\css\nivo\default.css" />
+    <Content Include="Content\css\nivo\loading.gif" />
+    <Content Include="Content\css\nivo\nivo-slider.css" />
     <Content Include="Content\css\offcanvas.css" />
     <Content Include="Content\css\owl.carousel.css" />
     <Content Include="Content\css\owl.theme.css" />
@@ -299,6 +317,9 @@
     <Content Include="Content\img\mission.jpg" />
     <Content Include="Content\img\premiumLine.jpg" />
     <Content Include="Content\img\quote-bg.jpg" />
+    <Content Include="Content\img\sauna1.jpg" />
+    <Content Include="Content\img\sauna2.jpg" />
+    <Content Include="Content\img\sauna3.jpg" />
     <Content Include="Content\img\searchicon.png" />
     <Content Include="Content\img\service\commercial1.jpg" />
     <Content Include="Content\img\service\commercial2.jpg" />
@@ -334,6 +355,7 @@
     <Content Include="Content\js\hippo-off-canvas.js" />
     <Content Include="Content\js\jquery.js" />
     <Content Include="Content\js\jquery.min.js" />
+    <Content Include="Content\js\jquery.nivo.slider.js" />
     <Content Include="Content\js\jquery.validate.js" />
     <Content Include="Content\js\jquery.waterwheelCarousel.js" />
     <Content Include="Content\js\owl.carousel.min.js" />
@@ -411,6 +433,7 @@
     <Content Include="Views\Catalog\Furnaces.cshtml" />
     <Content Include="Views\Catalog\Spa.cshtml" />
     <Content Include="Views\Catalog\IceGenerators.cshtml" />
+    <Content Include="Views\Catalog\Sauna.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
