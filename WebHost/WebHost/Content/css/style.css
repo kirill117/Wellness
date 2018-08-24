@@ -270,6 +270,36 @@ table > tbody > tr > td > .btn {
     margin-top: 0px;
 }
 
+.table-parameters tr td {
+    text-align: center;
+}
+
+.table-parameters tr th {
+    text-align: center;
+}
+
+.table-parameters tr th:first-child {
+    text-align: left;
+}
+
+.table-parameters tbody tr td p {
+    text-align: center;
+}
+
+.table-parameters tbody tr td div {
+    text-align: left;
+    display: inline-block;
+}
+
+.table-parameters tbody tr td div p {
+    text-align: left;
+}
+
+.table-parameters tbody tr td:first-child {
+    text-align: left;
+    font-weight: 600;
+}
+
 .btn:hover, .btn-default:hover{
     background: #3c4461;
     color:#ffffff;

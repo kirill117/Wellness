@@ -18,9 +18,16 @@ namespace WebHost.Controllers
             return View();
         }
 
-        public ActionResult Sauna()
+        public ActionResult Sauna(string id)
         {
-            return View();
+            var actionName = "sauna";
+            
+            if (!string.IsNullOrEmpty(id))
+            {
+                actionName = "SaunaItems/" + id;
+            }
+
+            return View(actionName);
         }
 
         public ActionResult IceGenerators()

@@ -244,6 +244,10 @@
     <Content Include="Content\img\Catalog\Furnaces\LoraRobust.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Skult.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Troll.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\cortina.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\milano.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\SweetSaunaPro1.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\SweetSaunaPro2.jpg" />
     <Content Include="Content\img\client1.jpg" />
     <Content Include="Content\img\client2.jpg" />
     <Content Include="Content\img\client3.jpg" />
@@ -348,6 +352,7 @@
     <Content Include="Content\img\snowroom.jpg" />
     <Content Include="Content\img\spa.jpg" />
     <Content Include="Content\img\standardLine.jpg" />
+    <Content Include="Content\img\starpoollogo.jpg" />
     <Content Include="Content\img\vision.jpg" />
     <Content Include="Content\img\welcome.jpg" />
     <Content Include="Content\js\bootstrap.min.js" />
@@ -434,6 +439,7 @@
     <Content Include="Views\Catalog\Spa.cshtml" />
     <Content Include="Views\Catalog\IceGenerators.cshtml" />
     <Content Include="Views\Catalog\Sauna.cshtml" />
+    <Content Include="Views\Catalog\SaunaItems\SweetSaunaPro.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
