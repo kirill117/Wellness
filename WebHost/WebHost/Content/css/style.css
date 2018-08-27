@@ -827,6 +827,15 @@ offcanvas-menu
   transition         : all 0.3s ease 0s;
 }
 
+.service-thumb {
+    background-color: #000;
+}
+
+/*.service-item img {
+    opacity: 0.8;
+}*/
+
+
 .service-item{
   position: relative;
   margin-bottom:2.1em;
@@ -859,11 +868,12 @@ offcanvas-menu
 .service-description h3{
     color: #ffffff;
     border-left: 5px solid rgb(111,30,130);
-    line-height: 1.4rem;
+    line-height: 1.7rem;
     padding-left:.4em;
     text-transform: uppercase;
 }
 .service-description p{
+  text-align:left;
   color:#ffffff;
   opacity: 0;
   visibility: hidden;

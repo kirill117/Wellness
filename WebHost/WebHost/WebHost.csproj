@@ -440,6 +440,7 @@
     <Content Include="Views\Catalog\IceGenerators.cshtml" />
     <Content Include="Views\Catalog\Sauna.cshtml" />
     <Content Include="Views\Catalog\SaunaItems\SweetSaunaPro.cshtml" />
+    <Content Include="Views\Catalog\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

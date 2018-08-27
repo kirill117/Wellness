@@ -8,6 +8,11 @@ namespace WebHost.Controllers
 {
     public class CatalogController : Controller
     {
+        public ActionResult Index()
+        {
+            return View();
+        }
+
         public ActionResult Furnaces()  // печи
         {
             return View();
