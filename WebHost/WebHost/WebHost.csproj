@@ -244,6 +244,13 @@
     <Content Include="Content\img\Catalog\Furnaces\LoraRobust.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Skult.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Troll.jpg" />
+    <Content Include="Content\img\Catalog\Index\experienceshower.jpg" />
+    <Content Include="Content\img\Catalog\Index\hammam.jpg" />
+    <Content Include="Content\img\Catalog\Index\minibass.jpg" />
+    <Content Include="Content\img\Catalog\Index\modulsauna.jpg" />
+    <Content Include="Content\img\Catalog\Index\saltrooms.jpg" />
+    <Content Include="Content\img\Catalog\Index\snowrooms.JPG" />
+    <Content Include="Content\img\Catalog\Index\steamshower.jpg" />
     <Content Include="Content\img\Catalog\Sauna\cortina.jpg" />
     <Content Include="Content\img\Catalog\Sauna\milano.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSaunaPro1.jpg" />
@@ -334,6 +341,9 @@
     <Content Include="Content\img\service\private4.jpg" />
     <Content Include="Content\img\service\private5.jpg" />
     <Content Include="Content\img\service\private6.jpg" />
+    <Content Include="Content\img\service\private7.jpg" />
+    <Content Include="Content\img\service\private8.jpg" />
+    <Content Include="Content\img\service\private9.jpg" />
     <Content Include="Content\img\service\service1.jpg" />
     <Content Include="Content\img\service\service10.jpg" />
     <Content Include="Content\img\service\service11.jpg" />
