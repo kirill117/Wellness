@@ -228,6 +228,7 @@
     <Content Include="Content\img\Catalog\Furnaces\Arthur.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\ArthurMH.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Bjorn.jpg" />
+    <Content Include="Content\img\Catalog\Furnaces\Diemo.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Irmina.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Irmina2.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\IwoKlassik.jpg" />
@@ -255,6 +256,12 @@
     <Content Include="Content\img\Catalog\Sauna\milano.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSaunaPro1.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSaunaPro2.jpg" />
+    <Content Include="Content\img\Catalog\SweetShower\black.jpg" />
+    <Content Include="Content\img\Catalog\SweetShower\calacatta.jpg" />
+    <Content Include="Content\img\Catalog\SweetShower\eramosa.jpg" />
+    <Content Include="Content\img\Catalog\SweetShower\SweetShower1.jpg" />
+    <Content Include="Content\img\Catalog\SweetShower\sweetshower2.jpg" />
+    <Content Include="Content\img\Catalog\SweetShower\white.jpg" />
     <Content Include="Content\img\client1.jpg" />
     <Content Include="Content\img\client2.jpg" />
     <Content Include="Content\img\client3.jpg" />
@@ -451,6 +458,7 @@
     <Content Include="Views\Catalog\Sauna.cshtml" />
     <Content Include="Views\Catalog\SaunaItems\SweetSaunaPro.cshtml" />
     <Content Include="Views\Catalog\Index.cshtml" />
+    <Content Include="Views\Catalog\SweetShower.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

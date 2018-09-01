@@ -12,6 +12,11 @@ namespace WebHost.Controllers
         {
             return View();
         }
+        
+        public ActionResult SweetShower()
+        {
+            return View();
+        }
 
         public ActionResult Furnaces()  // печи
         {
