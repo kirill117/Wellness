@@ -13,10 +13,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2013 08:43:40</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>09/02/2018 00:24:07</publishTime>
+      <publishTime>09/04/2018 23:48:46</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>09/02/2018 00:24:07</publishTime>
+      <publishTime>09/04/2018 23:48:46</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -133,7 +133,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/17/2013 17:03:52</publishTime>
     </File>
     <File Include="bin/WebHost.dll">
-      <publishTime>09/02/2018 00:23:37</publishTime>
+      <publishTime>09/04/2018 23:48:27</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
       <publishTime>07/02/2018 23:12:50</publishTime>
@@ -374,6 +374,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/Catalog/Index/steamshower.jpg">
       <publishTime>08/27/2018 23:38:41</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SaltRoom/SaltCabine.jpg">
+      <publishTime>09/04/2018 23:36:20</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SaltRoom/SaltRoom.jpg">
+      <publishTime>09/04/2018 23:22:56</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SaltRoom/SaltSauna.jpg">
+      <publishTime>09/04/2018 23:46:19</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SaltRoom/SaltWall.jpg">
+      <publishTime>09/04/2018 23:41:40</publishTime>
     </File>
     <File Include="Content/img/Catalog/Sauna/cortina.jpg">
       <publishTime>08/27/2018 22:58:16</publishTime>
@@ -787,7 +799,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:58</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>09/02/2018 00:23:48</publishTime>
+      <publishTime>09/04/2018 23:48:33</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>07/02/2018 23:12:56</publishTime>
@@ -871,7 +883,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/27/2018 22:58:17</publishTime>
     </File>
     <File Include="Views/Catalog/Index.cshtml">
-      <publishTime>09/01/2018 23:35:16</publishTime>
+      <publishTime>09/04/2018 23:27:42</publishTime>
+    </File>
+    <File Include="Views/Catalog/SaltRoom.cshtml">
+      <publishTime>09/04/2018 23:45:52</publishTime>
     </File>
     <File Include="Views/Catalog/Sauna.cshtml">
       <publishTime>08/27/2018 22:58:17</publishTime>
