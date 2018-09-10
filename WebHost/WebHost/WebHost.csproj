@@ -258,6 +258,8 @@
     <Content Include="Content\img\Catalog\SaltRoom\SaltWall.jpg" />
     <Content Include="Content\img\Catalog\Sauna\cortina.jpg" />
     <Content Include="Content\img\Catalog\Sauna\milano.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\SweetSauna901.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\SweetSauna902.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSaunaPro1.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSaunaPro2.jpg" />
     <Content Include="Content\img\Catalog\SweetShower\black.jpg" />
@@ -464,6 +466,7 @@
     <Content Include="Views\Catalog\Index.cshtml" />
     <Content Include="Views\Catalog\SweetShower.cshtml" />
     <Content Include="Views\Catalog\SaltRoom.cshtml" />
+    <Content Include="Views\Catalog\SaunaItems\SweetSauna90.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
