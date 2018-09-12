@@ -532,8 +532,17 @@ input.empty {
   color: #ffffff !important;
 }
  
-:focus::-webkit-input-placeholder { 
-  color: ffffff !important;  
+.scrollup {
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:50px;
+right:100px;
+display:none;
+z-index: 9999;
+text-indent:-9999px;
+background: url('/Content/img/icon_top.png') no-repeat;
 }
 
 
