@@ -260,8 +260,14 @@
     <Content Include="Content\img\Catalog\Sauna\milano.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSauna901.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSauna902.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\SweetSauna90Infrared1.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\SweetSauna90Infrared2.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSaunaPro1.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSaunaPro2.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\SweetSaunaSmart1.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\SweetSaunaSmart2.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\SweetSaunaSmartInfrared1.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\SweetSaunaSmartInfrared2.jpg" />
     <Content Include="Content\img\Catalog\SweetShower\black.jpg" />
     <Content Include="Content\img\Catalog\SweetShower\calacatta.jpg" />
     <Content Include="Content\img\Catalog\SweetShower\eramosa.jpg" />
@@ -468,6 +474,9 @@
     <Content Include="Views\Catalog\SweetShower.cshtml" />
     <Content Include="Views\Catalog\SaltRoom.cshtml" />
     <Content Include="Views\Catalog\SaunaItems\SweetSauna90.cshtml" />
+    <Content Include="Views\Catalog\SaunaItems\SweetSaunaSmart.cshtml" />
+    <Content Include="Views\Catalog\SaunaItems\SweetSaunaSmartInfrared.cshtml" />
+    <Content Include="Views\Catalog\SaunaItems\SweetSauna90Infrared.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
