@@ -13,10 +13,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2013 08:43:40</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>09/04/2018 23:48:46</publishTime>
+      <publishTime>09/20/2018 00:18:01</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>09/04/2018 23:48:46</publishTime>
+      <publishTime>09/20/2018 00:18:01</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -133,7 +133,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/17/2013 17:03:52</publishTime>
     </File>
     <File Include="bin/WebHost.dll">
-      <publishTime>09/04/2018 23:48:27</publishTime>
+      <publishTime>09/20/2018 00:17:47</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
       <publishTime>07/02/2018 23:12:50</publishTime>
@@ -223,7 +223,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:50</publishTime>
     </File>
     <File Include="Content/css/style.css">
-      <publishTime>08/28/2018 00:23:22</publishTime>
+      <publishTime>09/19/2018 23:38:05</publishTime>
     </File>
     <File Include="Content/docs/spa_VB.pdf">
       <publishTime>08/27/2018 22:58:16</publishTime>
@@ -290,6 +290,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/about2.jpg">
       <publishTime>07/03/2018 00:14:10</publishTime>
+    </File>
+    <File Include="Content/img/brand_line.jpg">
+      <publishTime>09/14/2018 22:59:59</publishTime>
     </File>
     <File Include="Content/img/Catalog/Furnaces/Arne.jpg">
       <publishTime>07/10/2018 23:49:58</publishTime>
@@ -391,13 +394,85 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/27/2018 22:58:16</publishTime>
     </File>
     <File Include="Content/img/Catalog/Sauna/milano.jpg">
-      <publishTime>08/27/2018 22:58:16</publishTime>
+      <publishTime>09/10/2018 23:54:29</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Sauna/rubik.jpg">
+      <publishTime>09/16/2018 23:50:52</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Sauna/solid.jpg">
+      <publishTime>09/16/2018 23:49:22</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Sauna/SweetSauna901.jpg">
+      <publishTime>09/10/2018 23:21:10</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Sauna/SweetSauna902.jpg">
+      <publishTime>09/10/2018 23:26:20</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Sauna/SweetSauna90Infrared1.jpg">
+      <publishTime>09/14/2018 00:15:46</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Sauna/SweetSauna90Infrared2.jpg">
+      <publishTime>09/14/2018 00:17:27</publishTime>
     </File>
     <File Include="Content/img/Catalog/Sauna/SweetSaunaPro1.jpg">
       <publishTime>08/27/2018 22:58:16</publishTime>
     </File>
     <File Include="Content/img/Catalog/Sauna/SweetSaunaPro2.jpg">
       <publishTime>08/27/2018 22:58:16</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Sauna/SweetSaunaSmart1.jpg">
+      <publishTime>09/13/2018 23:14:35</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Sauna/SweetSaunaSmart2.jpg">
+      <publishTime>09/13/2018 23:30:36</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Sauna/SweetSaunaSmartInfrared1.jpg">
+      <publishTime>09/13/2018 23:42:24</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Sauna/SweetSaunaSmartInfrared2.jpg">
+      <publishTime>09/13/2018 23:43:10</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Sauna/variant.jpg">
+      <publishTime>09/16/2018 23:45:15</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SnowRoom/mono.jpg">
+      <publishTime>09/18/2018 23:49:33</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SnowRoom/SnowRoom1.jpg">
+      <publishTime>09/18/2018 23:50:33</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SnowRoom/split.jpg">
+      <publishTime>09/19/2018 00:04:25</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamShower/black.jpg">
+      <publishTime>09/19/2018 23:40:44</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamShower/calacatta.jpg">
+      <publishTime>09/19/2018 23:40:44</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamShower/eramosa.jpg">
+      <publishTime>09/19/2018 23:40:44</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamShower/SweetSmart.jpg">
+      <publishTime>09/19/2018 23:19:29</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamShower/SweetSpa.jpg">
+      <publishTime>09/19/2018 23:19:01</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamShower/SweetSpa1.jpg">
+      <publishTime>09/19/2018 23:48:31</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamShower/SweetSpa2.jpg">
+      <publishTime>09/20/2018 00:02:01</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamShower/SweetSteamSmart1.jpg">
+      <publishTime>09/19/2018 23:46:15</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamShower/SweetSteamSmart2.jpg">
+      <publishTime>09/20/2018 00:00:56</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamShower/white.jpg">
+      <publishTime>09/19/2018 23:40:44</publishTime>
     </File>
     <File Include="Content/img/Catalog/SweetShower/black.jpg">
       <publishTime>09/02/2018 00:06:11</publishTime>
@@ -618,6 +693,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/icegen.jpg">
       <publishTime>08/27/2018 22:58:17</publishTime>
     </File>
+    <File Include="Content/img/icon_top.png">
+      <publishTime>09/12/2018 22:14:25</publishTime>
+    </File>
     <File Include="Content/img/logo.jpg">
       <publishTime>07/02/2018 23:12:52</publishTime>
     </File>
@@ -643,7 +721,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/27/2018 22:58:17</publishTime>
     </File>
     <File Include="Content/img/sauna3.jpg">
-      <publishTime>08/27/2018 22:58:17</publishTime>
+      <publishTime>09/14/2018 23:18:38</publishTime>
+    </File>
+    <File Include="Content/img/sauna4.jpg">
+      <publishTime>09/14/2018 23:22:43</publishTime>
     </File>
     <File Include="Content/img/searchicon.png">
       <publishTime>07/02/2018 23:12:53</publishTime>
@@ -775,7 +856,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:55</publishTime>
     </File>
     <File Include="Content/js/script.js">
-      <publishTime>08/27/2018 22:58:17</publishTime>
+      <publishTime>09/12/2018 22:53:35</publishTime>
     </File>
     <File Include="Content/Site.css">
       <publishTime>07/02/2018 23:12:50</publishTime>
@@ -799,7 +880,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:58</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>09/04/2018 23:48:33</publishTime>
+      <publishTime>09/20/2018 00:17:52</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>07/02/2018 23:12:56</publishTime>
@@ -880,22 +961,43 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/31/2018 00:20:29</publishTime>
     </File>
     <File Include="Views/Catalog/IceGenerators.cshtml">
-      <publishTime>08/27/2018 22:58:17</publishTime>
+      <publishTime>09/19/2018 00:32:10</publishTime>
     </File>
     <File Include="Views/Catalog/Index.cshtml">
-      <publishTime>09/04/2018 23:27:42</publishTime>
+      <publishTime>09/19/2018 23:12:52</publishTime>
     </File>
     <File Include="Views/Catalog/SaltRoom.cshtml">
-      <publishTime>09/04/2018 23:45:52</publishTime>
+      <publishTime>09/10/2018 23:14:28</publishTime>
     </File>
     <File Include="Views/Catalog/Sauna.cshtml">
-      <publishTime>08/27/2018 22:58:17</publishTime>
+      <publishTime>09/17/2018 00:06:17</publishTime>
+    </File>
+    <File Include="Views/Catalog/SaunaItems/SweetSauna90.cshtml">
+      <publishTime>09/10/2018 23:50:21</publishTime>
+    </File>
+    <File Include="Views/Catalog/SaunaItems/SweetSauna90Infrared.cshtml">
+      <publishTime>09/19/2018 00:47:19</publishTime>
     </File>
     <File Include="Views/Catalog/SaunaItems/SweetSaunaPro.cshtml">
-      <publishTime>08/27/2018 22:58:17</publishTime>
+      <publishTime>09/13/2018 23:32:06</publishTime>
+    </File>
+    <File Include="Views/Catalog/SaunaItems/SweetSaunaSmart.cshtml">
+      <publishTime>09/13/2018 23:34:47</publishTime>
+    </File>
+    <File Include="Views/Catalog/SaunaItems/SweetSaunaSmartInfrared.cshtml">
+      <publishTime>09/19/2018 00:48:26</publishTime>
     </File>
     <File Include="Views/Catalog/Spa.cshtml">
       <publishTime>08/28/2018 00:26:42</publishTime>
+    </File>
+    <File Include="Views/Catalog/SteamShower.cshtml">
+      <publishTime>09/19/2018 23:23:41</publishTime>
+    </File>
+    <File Include="Views/Catalog/SteamShowerItems/SweetSpa.cshtml">
+      <publishTime>09/20/2018 00:15:06</publishTime>
+    </File>
+    <File Include="Views/Catalog/SteamShowerItems/SweetSteamSmart.cshtml">
+      <publishTime>09/19/2018 23:59:41</publishTime>
     </File>
     <File Include="Views/Catalog/SweetShower.cshtml">
       <publishTime>09/02/2018 00:18:00</publishTime>
@@ -934,7 +1036,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/27/2018 22:58:17</publishTime>
     </File>
     <File Include="Views/Service/Design.cshtml">
-      <publishTime>07/03/2018 00:28:42</publishTime>
+      <publishTime>09/12/2018 23:05:05</publishTime>
     </File>
     <File Include="Views/Service/Maintenance.cshtml">
       <publishTime>08/27/2018 22:58:17</publishTime>
@@ -946,7 +1048,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:58</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>08/27/2018 23:16:09</publishTime>
+      <publishTime>09/12/2018 22:43:38</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>07/02/2018 23:12:58</publishTime>

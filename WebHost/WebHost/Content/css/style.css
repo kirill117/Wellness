@@ -298,6 +298,12 @@ table > tbody > tr > td > .btn {
 .table-parameters tbody tr td:first-child {
     text-align: left;
     font-weight: 600;
+    background-color: rgba(0, 0, 0, .05)
+}
+
+.table-parameters thead tr:first-child {
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, .05);
 }
 
 .btn:hover, .btn-default:hover{
@@ -759,7 +765,8 @@ offcanvas-menu
 --------------------------------------------*/
 .service-section{
   overflow: hidden;
-  padding-bottom: 5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .tablist{
@@ -838,6 +845,7 @@ offcanvas-menu
 
 .service-thumb {
     background-color: #000;
+    max-width: 550px;
 }
 
 /*.service-item img {
@@ -848,12 +856,14 @@ offcanvas-menu
 .service-item{
   position: relative;
   margin-bottom:2.1em;
+  max-width: 550px;
 }
 .service-item::before{
   content: " ";
   position: absolute;
   width:100%;
   height: 100%;
+  max-width: 550px;
   left:0;
   top:0;
   background: rgb(111,30,130);
@@ -1182,7 +1192,7 @@ color:#dddddd;
   margin:.5em 2.5em 0 0;
 }
 .history-details p{
-  margin:0 0 2em ;
+  margin:0 0 1em ;
   text-align:justify;
 }
 

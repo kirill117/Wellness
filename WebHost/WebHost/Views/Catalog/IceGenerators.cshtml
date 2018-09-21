@@ -2,6 +2,17 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<script type='text/javascript' src='~/content/fancybox/jquery.fancybox.min.js'></script>
+<link rel='stylesheet' href='~/content/fancybox/jquery.fancybox.min.css' type='text/css' />
+
+<script>
+    $(document).ready(function () {
+        $("[data-fancybox]").fancybox({
+            'scrolling': 'yes'
+        });
+    });
+</script>
+
 <div class="breadcrumb-area">
     <div class="container">
         <div class="row">
@@ -11,6 +22,7 @@
                     <ul class="breadcrumb">
                         <li><a href="~/Home/Index">Главная</a></li>
                         <li class="">Каталог</li>
+                        <li class=""><a href="~/Catalog/Index">СПА</a></li>
                         <li class="active">Льдогенераторы</li>
                     </ul>
                 </div>
@@ -27,123 +39,170 @@
             <div class="history">
                 <h3>Cнегогенераторы для банных зон и снежных комнат</h3>
                 <div class="history-details">
-                    <img src="~/Content/img/snowroom.jpg" alt="">
-                    <img src="~/Content/img/icegen.jpg" alt="">
+                    <img src="~/Content/img/Catalog/SnowRoom/SnowRoom1.jpg" alt="">
                     <p>
-                        Одной из самых желанных процедур после посещения сауны и бани является охлаждение. Однако охладиться после банных процедур не всегда возможно. 
-                        Благодаря оборудованию R-Snow для снежных комнат, это стало доступным в любое время года. R-Snow производит снег за считанные секунды, который является эффективной и 
-                        быстрой процедурой охлаждения. При этом процесс обтирания снегом является приятным и очень полезным для организма.
-                    </p>
-
-                    <p>
-                        <a href="#snowgen">Снегогенераторы R-Snow</a><br />
-                        Модели в исполнении моноблок или сплит для мон-тажа за потолком.
-                        <br /><strong>Моноблок</strong> — полностью готов к монтажу и заправлен хладагентом. Не требует технического помещения. Монтаж может быть осуществлен специалистом, не обладающим специальными знаниями и оборудованием для монтажа холодильной техники
-                        <br /><strong>Сплит</strong> — оборудование, состоящее из двух частей—снежный барабан и компрессор с блоком управления. Готовое к монтажу, но незаправленное хладагентом. Установка осуществляется техническим специали-стом-холодильщиком, обладающим специальными знаниями и оборудованием для монтажа холодильной техники.
+                        Одной из самых желанных процедур после посещения сауны и бани - охлаждение. Однако охладиться после банных процедур не всегда возможно. Благодаря снежным комнатам, это стало доступно в любое время года.
+                        Компания <a href="~/home/index">Wellness Solution</a> спроектирует снежную комнату по индивидуальному заказу.
                     </p>
                     <p>
-                        <a href="#climagen">Генератор морского климата R-Salt</a><br />
-                        Генератор морского климата R-Salt используется в парных или солевых комнатах. В течение небольшого промежутка времени в помещении устанавливается соленый «Морской климат».
-                        Генератор R-Salt c одной форсункой может использоваться в помещениях площадью до 25 м2
-                        Оборудование полностью готовое к монтажу.
-                        В комплект поставки входит 1 канистра солевого раствора 5л и 1 таблетка дезинфекции.
+                        Снегогенератор производит снег в заранее определенном месте за считанные секунды и. Весь процесс охлаждения снегом является приятным и полезным для организма.
                     </p>
                     <p>
-                        <a href="#icegen">Льдогенераторы R-Snow</a><br />
-                        Мощный — 450 литров льда / сутки<br /> 
-                        Надежный — морозильная камера и мотор-редуктор сделаны в Германии<br /> 
-                        Умный— защита от заторов льда, контроль перемораживания, защита от прежде-временного включения после остановки. <br />
-                        Защищенный—специальный поддон от протечек
+                        Оборудование снежной комнаты размещается в техническом помещении площадью 1,5м или под потолком, что существенно экономит квадратные метры.
                     </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row"  style="margin-top:50px;">
         <div class="col-md-12">
-            <div id="snowgen" class="table-responsive">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr class="info">
-                            <th>
-                                Cнегогенераторы потолочные R-Snow
-                            </th>
-                            <th style="width:150px;">
-                                Цена
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>R-Snow MONO ES 200-1M</td>
-                            <td>8 500 EUR</td>
-                        </tr>
-                        <tr>
-                            <td>R-Snow MONO ES 300-1M</td>
-                            <td>9 100 EUR</td>
-                        </tr>
-                        <tr>
-                            <td>R-Snow SPLIT ES 200-1S</td>
-                            <td>9 800 EUR</td>
-                        </tr>
-                        <tr>
-                            <td>R-Snow SPLIT ES 300-1S</td>
-                            <td>10 400 EUR</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <h4>Виды монтажа снегогенераторов для снежных комнат</h4>
+        </div>
+        <div class="col-md-6">
+            <div class="gallery-item">
+                <a href="~/Content/img/Catalog/SnowRoom/mono.jpg" data-fancybox="gallery1" data-caption="Снегогенераторы - Mono">
+                    <img src="~/Content/img/Catalog/SnowRoom/mono.jpg" alt="" style="width:100%">
+                </a>
             </div>
-
-            <div id="climagen" class="table-responsive">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr class="info">
-                            <th>
-                                Генераторы морского климата R-Salt
-                            </th>
-                            <th style="width:150px;">
-                                Цена
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>R-SALT SG-001 с канистрой 5л</td>
-                            <td>1 980 EUR</td>
-                        </tr>
-                        <tr>
-                            <td>Выносная панель включения с пьезокнопкой и подстветкой</td>
-                            <td>150 EUR</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div>
+                <p>
+                    <strong>Моноблок</strong> - полностью готов к монтажу и заправлен хладагентом. Не требует технического помещения. Монтаж может быть осуществлен специалистом, не обладающим специальными знаниями и оборудованием для монтажа холодильной техники.
+                </p>
             </div>
-
-            <div id="icegen" class="table-responsive">
-                <table class="table table-bordered">
+        </div>
+        <div class="col-md-6">
+            <div class="gallery-item">
+                <a href="~/Content/img/Catalog/SnowRoom/split.jpg" data-fancybox="gallery1" data-caption="Снегогенераторы - Split">
+                    <img src="~/Content/img/Catalog/SnowRoom/split.jpg" alt="" style="width:100%">
+                </a>
+            </div>
+            <div>
+                <p>
+                    <strong>Сплит</strong> — готовое к монтажу, но незаправленное хладагентом оборудование, состоящее из двух частей: снежный барабан и компрессор с блоком управления. Установка осуществляется техническим специалистом-холодильщиком, обладающим специальными знаниями и оборудованием для монтажа холодильной техники.
+                </p>
+            </div>
+        </div> 
+    </div>
+    <!-- .row-->
+    <div class="row"  style="margin-top:50px;">
+        <div class="col-md-12">
+            <h4>Технические характеристики</h4>
+            <div class="table-responsive">
+                <table class="table table-parameters">
                     <thead>
-                        <tr class="info">
+                        <tr>
                             <th>
-                                Льдогенераторы R-Snow
+                                Модель
                             </th>
-                            <th style="width:150px;">
-                                Цена
+                            <th>
+                                R-Snow SPLIT ES 200 1S
+                            </th>
+                            <th>
+                                R-Snow SPLIT ES 300 1S
+                            </th>
+                            <th>
+                                R-Snow MONO ES 200 1S
+                            </th>
+                            <th>
+                                R-Snow MONO ES 300 1S
                             </th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Z1-250W</td>
-                            <td>6 500 EUR</td>
+                            <td>Мощность, кВт</td>
+                            <td>1.5</td>
+                            <td>1.5</td>
+                            <td>1.5</td>
+                            <td>1.5</td>
                         </tr>
                         <tr>
-                            <td>Z2-250W</td>
-                            <td>6 700 EUR</td>
+                            <td>Вес, кг</td>
+                            <td>80</td>
+                            <td>80</td>
+                            <td>80</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td>Размеры</td>
+                            <td>
+                                снежный барабан – 40 х 60 х 40 см<br />
+                                компрессорный блок – 40 х 23 х 40 см
+                            </td>
+                            <td>
+                                снежный барабан – 40 х 60 х 40 см<br />
+                                компрессорный блок – 40 х 23 х 40 см
+                            </td>
+                            <td>потолочный</td>
+                            <td>потолочный</td>
+                        </tr>
+                        <tr>
+                            <td>Производительность снега, л/час</td>
+                            <td>30-40</td>
+                            <td>50-60</td>
+                            <td>30-40</td>
+                            <td>50-60</td>
+                        </tr>
+                        <tr>
+                            <td>Температура снега °C</td>
+                            <td>-10</td>
+                            <td>-10</td>
+                            <td>-10</td>
+                            <td>-10</td>
+                        </tr>
+                        <tr>
+                            <td>Охлаждение</td>
+                            <td>водяное</td>
+                            <td>водяное</td>
+                            <td>водяное</td>
+                            <td>водяное</td>
+                        </tr>
+                        <tr>
+                            <td>Питание</td>
+                            <td colspan="4">
+                                220 Вольт
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Диаметр подключения</td>
+                            <td colspan="4">
+                                к водоснабжению - холодная вода 1/2<br />
+                                температура не выше T=15 °С
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Слив талой воды и конденсата</td>
+                            <td colspan="4">
+                                1/2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Слив системы охлаждения</td>
+                            <td colspan="4">1/2</td>
+                        </tr>
+                        <tr>
+                            <td>Стоимость</td>
+                            <td>
+                                <p>775 000,00 ₽</p>
+                                <a class="btn btn-order" href="#">Заказать</a>
+                            </td>
+                            <td>
+                                <p>822 000,00 ₽</p>
+                                <a class="btn btn-order" href="#">Заказать</a>
+                            </td>
+                            <td>
+                                <p>672 000,00 ₽</p>
+                                <a class="btn btn-order" href="#">Заказать</a>
+                            </td>
+                            <td>
+                                <p>720 000,00 ₽</p>
+                                <a class="btn btn-order" href="#">Заказать</a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
+    <!-- .row-->
 </div>
-<!-- .container-->

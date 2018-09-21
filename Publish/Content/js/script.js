@@ -30,10 +30,20 @@ jQuery(function ($) {
     // Blank JS Wrapper
     // ================================================================
 
-    (function () {
+    $(document).ready(function() {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 300) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
 
-
-    }());
+        $('.scrollup').click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+    });
 
     // ================================================================
     // Check Is Mobile
@@ -88,6 +98,15 @@ jQuery(function ($) {
             $("#dialog-order").modal();
             $('body').removeClass('modal-open');
             $('body').css('padding-right','0');
+        });
+    }());
+
+    (function () {
+        $('.service-item').on('click', function (e) {
+            e.preventDefault();
+            var anchor = $(this).find('a');
+            if (anchor)
+                window.location.href = anchor.attr('href');
         });
     }());
 

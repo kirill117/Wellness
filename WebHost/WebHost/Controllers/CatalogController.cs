@@ -45,6 +45,18 @@ namespace WebHost.Controllers
             return View(actionName);
         }
 
+        public ActionResult SteamShower(string id)
+        {
+            var actionName = "SteamShower";
+
+            if (!string.IsNullOrEmpty(id))
+            {
+                actionName = "SteamShowerItems/" + id;
+            }
+
+            return View(actionName);
+        }
+
         public ActionResult IceGenerators()
         {
             return View();

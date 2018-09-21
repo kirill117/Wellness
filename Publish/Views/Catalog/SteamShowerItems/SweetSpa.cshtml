@@ -1,0 +1,234 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $('#slider').nivoSlider({
+            directionNav: true,
+            directionNavHide: false,
+            controlNav: false,
+            controlNavThumbs: false
+        });
+    });
+</script>
+
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-title">
+                    <h2>Пародушевая</h2>
+                    <ul class="breadcrumb">
+                        <li><a href="~/Home/Index">Главная</a></li>
+                        <li class="">Каталог</li>
+                        <li class=""><a href="~/Catalog/Index">СПА</a></li>
+                        <li class=""><a href="~/Catalog/SteamShower">Пародушевые</a></li>
+                        <li class="active">Sweet Spa</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- .row-->
+    </div>
+    <!-- .container-->
+</div>
+<!-- .breadcrumb-area-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="history">
+                <h3>STARPOOL Sweet Spa</h3>
+                <div class="history-details">
+                    <div class="pull-left" style="width: 48%;margin-right:30px;">
+                        <div id="slider" class="theme-default nivoSlider">
+                            <img src="~/Content/img/Catalog/SteamShower/SweetSpa1.jpg" alt="">
+                            <img src="~/Content/img/Catalog/SteamShower/SweetSpa2.jpg" alt="">
+                        </div>
+                    </div>
+                    <p>
+                        <strong>SweetSpa</strong> отражает всю wellness философию созданную Starpool.  
+                        <strong>SweetSpa</strong>  - это великолепное сочетание современных технологий, непревзойденного дизайна и изысканных материалов. Пародушевая может быть размещена в квартире, частном доме, номере отеля и spa-комлексе.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .row-->
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-md-12">
+            <h4>Варианты отделки</h4>
+            <div class="col-md-3">
+                <div>
+                    <strong>Crystal black</strong>
+                </div>
+                <div>
+                    <img src="~/Content/img/Catalog/SweetShower/black.jpg" alt="">
+                </div>
+                <div class="text-center">
+                    <div>По запросу</div>
+                    <a class="btn btn-order" href="#">Заказать</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <strong>Crystal white</strong>
+                </div>
+                <div>
+                    <img src="~/Content/img/Catalog/SweetShower/white.jpg" alt="">
+                </div>
+                <div class="text-center">
+                    <div>По запросу</div>
+                    <a class="btn btn-order" href="#">Заказать</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <strong>Luxury calacatta</strong>
+                </div>
+                <div>
+                    <img src="~/Content/img/Catalog/SweetShower/calacatta.jpg" alt="">
+                </div>
+                <div class="text-center">
+                    <div>По запросу</div>
+                    <a class="btn btn-order" href="#">Заказать</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <strong>Luxury eramosa</strong>
+                </div>
+                <div>
+                    <img src="~/Content/img/Catalog/SweetShower/eramosa.jpg" alt="">
+                </div>
+                <div class="text-center">
+                    <div>По запросу</div>
+                    <a class="btn btn-order" href="#">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .row-->
+    <div class="row" style="margin-top:60px;">
+        <div class="col-md-12">
+            <h4>Технические характеристики</h4>
+            <div class="table-responsive">
+                <table class="table table-parameters">
+                    <thead>
+                        <tr>
+                            <th>
+                                МОДЕЛЬ
+                            </th>
+                            <th>
+                                SWEET SPA SOCIAL
+                            </th>
+                            <th>
+                                SWEET SPA PERSONAL / PERSONAL PLUS
+                            </th>
+                            <th>
+                                SWEET SPA SOCIAL XL
+                            </th>
+                            <th>
+                                SWEET SPA PERSONAL /
+                                PERSONAL PLUS XL
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td>БЕЗ ПОЛА</td>
+                            <td>С ПОЛОМ</td>
+                            <td>БЕЗ ПОЛА</td>
+                            <td>С ПОЛОМ</td>
+                        </tr>
+                        <tr>
+                            <td>РАЗМЕРЫ (СМ)</td>
+                            <td>150 Д х 150 Ш х 230 В</td>
+                            <td>175 Д х 150 Ш х 230 В</td>
+                            <td>250 Д х 150 Ш х 230 В</td>
+                            <td>295 Д х 150 Ш х 230 В</td>
+                        </tr>
+                        <tr>
+                            <td>НЕОБХОДИМОЕ ПРОСТРАНСТВО ДЛЯ УСТАНОВКИ КАБИНЫ (СМ)</td>
+                            <td>160 Д х 155 Ш х 240 В</td>
+                            <td>185 Д х 155 Ш х 240 В</td>
+                            <td>260 Д х 155 Ш х 240 В</td>
+                            <td>305 Д х 155 Ш х 240 В</td>
+                        </tr>
+                        <tr>
+                            <td>ВЕС</td>
+                            <td colspan="2">750 КГ</td>
+                            <td colspan="2">1200 КГ</td>
+                        </tr>
+                        <tr>
+                            <td>ПИТАНИЕ</td>
+                            <td colspan="2">230В 1Р + N + PE</td>
+                            <td colspan="2">400В 3Р + N + PE</td>
+                        </tr>
+                        <tr>
+                            <td>ПОТРЕБЛЕНИЕ</td>
+                            <td colspan="2">max 3,5 кВт</td>
+                            <td colspan="2">max 5,0 кВт</td>
+                        </tr>
+                        <tr>
+                            <td>РЕЖИМЫ</td>
+                            <td colspan="4">
+                                ПАРОДУШЕВАЯ
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ТЕМПЕРАТУРА</td>
+                            <td colspan="4">
+                                43-45 ⁰С
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ВЛАЖНОСТЬ</td>
+                            <td colspan="4">
+                                98%
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ДВЕРЬ</td>
+                            <td colspan="4">
+                                ЗАКАЛЕНОЕ СТЕКЛО 10 ММ, СТАЛЬНАЯ РУЧКА. ШИРИНА – 87 СМ
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ШИРИНА ДВЕРИ</td>
+                            <td>96 СМ</td>
+                            <td colspan="3">131 СМ</td>
+                        </tr>
+                        <tr>
+                            <td>МАТЕРИА ЛАВКИ/ПОЛА</td>
+                            <td colspan="4">
+                                ИСКУСТВЕННЫЙ КАМЕНЬ ПО ТЕХНОЛОГИИ SOLID SURFACE
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>МАТЕРИАЛ СТЕН</td>
+                            <td colspan="4">
+                                <div>
+                                    <p><strong>CRYSTAL</strong>: СТЕКЛО БЕЛОГО ИЛИ ЧЕРНОГО ЦВЕТА</p>
+                                    <p><strong>LUXURY</strong>: МРАМОР ДВУХ РИСУНКОВ НА ВЫБОР: ERAMOSA ИЛИ CALACATTA</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>МУЗЫКА</td>
+                            <td colspan="4">SPA-MUSIC BY STARPOOL. MP3, USB. Bluetooth (опционально) </td>
+                        </tr>
+                        <tr>
+                            <td>ОСВЕЩЕНИЕ</td>
+                            <td colspan="4">RGB LED-ПЛАНКА</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- .row-->
+</div>
+<!-- .container-->

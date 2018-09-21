@@ -2,14 +2,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<script type="text/javascript">
-    $(document).ready(function() {
+<script type='text/javascript' src='~/content/fancybox/jquery.fancybox.min.js'></script>
+<link rel='stylesheet' href='~/content/fancybox/jquery.fancybox.min.css' type='text/css' />
 
-        $('#slider').nivoSlider({
-            directionNav: true,
-            directionNavHide: false,
-            controlNav: false,
-            controlNavThumbs: false
+<script>
+    $(document).ready(function () {
+        $("[data-fancybox]").fancybox({
+            'scrolling': 'yes'
         });
     });
 </script>
@@ -23,6 +22,7 @@
                     <ul class="breadcrumb">
                         <li><a href="~/Home/Index">Главная</a></li>
                         <li class="">Каталог</li>
+                        <li class=""><a href="~/Catalog/Index">СПА</a></li>
                         <li class="active">Сауны</li>
                     </ul>
                 </div>
@@ -37,30 +37,89 @@
     <div class="row">
         <div class="col-md-12">
             <div class="history">
-                <h3>Модульные сауны STARPOOL®</h3>
+                <h3>МОДУЛЬНЫЕ САУНЫ WELLNESS SOLUTION</h3>
                 <div class="history-details">
-                    <div class="pull-left" style="width: 48%;height:600px;margin-right:30px;">
-                        <div id="slider" class="theme-default nivoSlider">
-                            <img src="~/Content/img/sauna1.jpg" alt="">
-                            <img src="~/Content/img/sauna2.jpg" alt="">
-                            <img src="~/Content/img/sauna3.jpg" alt="">
-                        </div>
-                    </div>
+                    <img src="~/Content/img/sauna4.jpg" alt="">
                     <p>
-                        Модульная сауна - современное и практичное решение для вашего дома или участка.
-                        Благодаря каркасной основе, время сбора сауны не составит больше 2-3 дней, что принесёт минимальные неудобства для жителей вашего дома.
+                        Модульная сауна - современное и практичное решение для вашего дома или участка. Благодаря каркасной основе, время сбора сауны не составит больше 2-3 дней, что принесёт минимальные неудобства для жителей вашего дома.                    
                     </p>
                     <p>
-                        Высокое качество материалов обшивки добавят уют и элегантность в вашу сауну.
+                        При создании модульных саун <a href="~/home/index">WELLNESS SOLUTON</a> используются оборудование и материалы лучших европейских брендов.
+                        
                     </p>
                     <p>
-                        Помимо готовых примеров, мы можем предложить вам индивидуальный дизайн.
+                        <img src="~/Content/img/brand_line.jpg" alt="" style="width:45%;float:none;">
                     </p>
                     <p>
                         В ходе разработки дизайна, бригада наших специалистов произведёт все нужные обмеры, а профессиональные дизайнеры помогут определиться с материалами и общим стилем сауны.
+                        Помимо готовых примеров, мы можем предложить вам <strong>индивидуальный дизайн</strong>.
                     </p>
-                    <div>
-                        <img src="~/Content/img/starpoollogo.jpg" alt="" style="float:left;width:210px;">
+                    <div class="clearfix"></div>
+                    <br />
+                    <p>
+                        Готовые примеры модульных саун:
+                    </p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <strong>Variant</strong>
+                            </div>
+                            <div class="gallery-item">
+                                <a href="~/Content/img/Catalog/Sauna/variant.jpg" data-fancybox="gallery1" data-caption="Готовые примеры модульных саун - Variant">
+                                    <img src="~/Content/img/Catalog/Sauna/variant.jpg" alt="" style="width:100%">
+                                </a>
+                            </div>
+                            <div class="text-center">
+                                <div>По запросу</div>
+                                <a class="btn btn-order" href="#">Заказать</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <strong>Solide</strong>
+                            </div>
+                            <div class="gallery-item">
+                                <a href="~/Content/img/Catalog/Sauna/solid.jpg" data-fancybox="gallery1" data-caption="Готовые примеры модульных саун - Solide">
+                                    <img src="~/Content/img/Catalog/Sauna/solid.jpg" alt="" style="width:100%">
+                                </a>
+                            </div>
+                            <div class="text-center">
+                                <div>По запросу</div>
+                                <a class="btn btn-order" href="#">Заказать</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <strong>Rubik</strong>
+                            </div>
+                            <div class="gallery-item">
+                                <a href="~/Content/img/Catalog/Sauna/rubik.jpg" data-fancybox="gallery1" data-caption="Готовые примеры модульных саун - Rubik">
+                                    <img src="~/Content/img/Catalog/Sauna/rubik.jpg" alt="" style="width:100%">
+                                </a>
+                            </div>
+                            <div class="text-center">
+                                <div>По запросу</div>
+                                <a class="btn btn-order" href="#">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .row-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="history">
+                <h3>Модульные сауны STARPOOL®</h3>
+                <div class="history-details">
+                    <img src="~/Content/img/sauna3.jpg" alt="">
+                    <p>
+                        <img src="~/Content/img/starpoollogo.jpg" alt="" style="float:right;width:210px;margin:0;">
+                        Сауны STARPOOL – это произведения искусства из Италии. Компания STARPOOL считает, что внешний вид продукции не может существовать отдельно от её функциональной направленности. Компании STARPOOL хорошо знакома аутентичная сущность дизайна, сделавшего Италию всемирным эталоном, которая она заключается в том, чтобы облечь содержимое высокого класса в привлекательную форму.  Детальная разработка внешнего вида выражается в гармоничных очертаниях, во вдумчивом использовании цвета, в осмысленной подсветке, она сопряжена с большим вниманием, уделяемым хорошему самочувствию человека и приятности окружения.
+                    </p>
+                    <div>  
+                        <span>Модельный ряд:</span>                      
                         <ul>
                             <li><a href="~/Catalog/Sauna/SweetSauna90">● SWEET SAUNA 90</a></li>
                             <li><a href="~/Catalog/Sauna/SweetSaunaPro">● SWEET SAUNA PRO </a></li>

@@ -224,6 +224,7 @@
     <Content Include="Content\img\about.jpg" />
     <Content Include="Content\img\about1.jpg" />
     <Content Include="Content\img\about2.jpg" />
+    <Content Include="Content\img\brand_line.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Arne.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Arthur.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\ArthurMH.jpg" />
@@ -258,6 +259,8 @@
     <Content Include="Content\img\Catalog\SaltRoom\SaltWall.jpg" />
     <Content Include="Content\img\Catalog\Sauna\cortina.jpg" />
     <Content Include="Content\img\Catalog\Sauna\milano.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\rubik.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\solid.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSauna901.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSauna902.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSauna90Infrared1.jpg" />
@@ -268,6 +271,20 @@
     <Content Include="Content\img\Catalog\Sauna\SweetSaunaSmart2.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSaunaSmartInfrared1.jpg" />
     <Content Include="Content\img\Catalog\Sauna\SweetSaunaSmartInfrared2.jpg" />
+    <Content Include="Content\img\Catalog\Sauna\variant.jpg" />
+    <Content Include="Content\img\Catalog\SnowRoom\mono.jpg" />
+    <Content Include="Content\img\Catalog\SnowRoom\SnowRoom1.jpg" />
+    <Content Include="Content\img\Catalog\SnowRoom\split.jpg" />
+    <Content Include="Content\img\Catalog\SteamShower\black.jpg" />
+    <Content Include="Content\img\Catalog\SteamShower\calacatta.jpg" />
+    <Content Include="Content\img\Catalog\SteamShower\eramosa.jpg" />
+    <Content Include="Content\img\Catalog\SteamShower\SweetSmart.jpg" />
+    <Content Include="Content\img\Catalog\SteamShower\SweetSpa.jpg" />
+    <Content Include="Content\img\Catalog\SteamShower\SweetSpa1.jpg" />
+    <Content Include="Content\img\Catalog\SteamShower\SweetSpa2.jpg" />
+    <Content Include="Content\img\Catalog\SteamShower\SweetSteamSmart1.jpg" />
+    <Content Include="Content\img\Catalog\SteamShower\SweetSteamSmart2.jpg" />
+    <Content Include="Content\img\Catalog\SteamShower\white.jpg" />
     <Content Include="Content\img\Catalog\SweetShower\black.jpg" />
     <Content Include="Content\img\Catalog\SweetShower\calacatta.jpg" />
     <Content Include="Content\img\Catalog\SweetShower\eramosa.jpg" />
@@ -351,6 +368,7 @@
     <Content Include="Content\img\sauna1.jpg" />
     <Content Include="Content\img\sauna2.jpg" />
     <Content Include="Content\img\sauna3.jpg" />
+    <Content Include="Content\img\sauna4.jpg" />
     <Content Include="Content\img\searchicon.png" />
     <Content Include="Content\img\service\commercial1.jpg" />
     <Content Include="Content\img\service\commercial2.jpg" />
@@ -477,6 +495,9 @@
     <Content Include="Views\Catalog\SaunaItems\SweetSaunaSmart.cshtml" />
     <Content Include="Views\Catalog\SaunaItems\SweetSaunaSmartInfrared.cshtml" />
     <Content Include="Views\Catalog\SaunaItems\SweetSauna90Infrared.cshtml" />
+    <Content Include="Views\Catalog\SteamShower.cshtml" />
+    <Content Include="Views\Catalog\SteamShowerItems\SweetSteamSmart.cshtml" />
+    <Content Include="Views\Catalog\SteamShowerItems\SweetSpa.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

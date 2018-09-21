@@ -25,9 +25,11 @@ head
     <!-- =========================================
     Mobile Configurations
     ========================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
+    <meta name="viewport" content="width=1024">
+
+    @*<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />*@
 
 
     <!-- Fonts -->
@@ -50,6 +52,37 @@ head
 
     <script src="~/Content/js/jquery.js"></script>
 
+@if (!HttpContext.Current.Request.Url.Host.Contains("localhost"))
+{
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50289421 = new Ya.Metrika2({
+                    id:50289421,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/50289421" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+}
 </head>
 <!-- /head -->
 
@@ -173,7 +206,7 @@ head
                                             наличие профессиональной бригады, даёт нам возможность
                                             гарантировать реализацию объекта высокого качества.
                                         </p>
-                                        <a class="btn" href="#">Узнать больше</a>
+                                        @*<a class="btn" href="#">Узнать больше</a>*@
                                     </div>
                                 </div>
                                 <div class="item">
@@ -184,7 +217,7 @@ head
                                             Устройство и монтаж модульных саун
                                         </h1>
                                         <p>Продажа оборудования и аксессуаров для саун и бань</p>
-                                        <a class="btn" href="#">Посмотреть каталог</a>
+                                        @*<a class="btn" href="#">Посмотреть каталог</a>*@
                                     </div>
                                 </div>
                                 <div class="item">
@@ -200,7 +233,7 @@ head
                                             осмотров позволит вам избежать многих неприятностей, а также
                                             сберечь время и деньги.
                                         </p>
-                                        <a class="btn" href="#">Подробнее</a>
+                                        @*<a class="btn" href="#">Подробнее</a>*@
                                     </div>
                                 </div>
                             </div>
@@ -279,7 +312,7 @@ head
                         <div class="footer-top">
                             <div class="col-md-3 col-sm-6">
                                 <div class="logo footer-logo">
-                                    <a title="fontanero" href="index.html">
+                                    <a title="RussiaWellness" href="~/home/index">
                                         <img style="width: 230px;" src="~/Content/img/logo.jpg" alt="">
                                     </a>
                                     <!--<p>Competently conceptualize go forward testing procedures and B2B expertise. Phosfluorescently cultivate principle-centered methods.of empowerment through fully researched.</p>-->
@@ -431,6 +464,8 @@ head
             </div>
         </div>
     </div>
+
+    <a href="#" class="scrollup">Наверх</a>
     <!-- #wrapper -->
     <!-- =========================================
     JAVASCRIPT
