@@ -61,5 +61,22 @@ namespace WebHost.Controllers
         {
             return View();
         }
+
+        public ActionResult SteamGenerators(string id)
+        {
+            var actionName = "SteamGenerators";
+
+            if (!string.IsNullOrEmpty(id))
+            {
+                actionName = "SteamGenItems/" + id;
+            }
+
+            return View(actionName);
+        }
+
+        public ActionResult Hammam()
+        {
+            return View();
+        }
     }
 }

@@ -13,10 +13,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2013 08:43:40</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>09/20/2018 00:18:01</publishTime>
+      <publishTime>10/02/2018 00:24:01</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>09/20/2018 00:18:01</publishTime>
+      <publishTime>10/02/2018 00:24:01</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -133,7 +133,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/17/2013 17:03:52</publishTime>
     </File>
     <File Include="bin/WebHost.dll">
-      <publishTime>09/20/2018 00:17:47</publishTime>
+      <publishTime>10/02/2018 00:23:51</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
       <publishTime>07/02/2018 23:12:50</publishTime>
@@ -223,7 +223,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:50</publishTime>
     </File>
     <File Include="Content/css/style.css">
-      <publishTime>09/19/2018 23:38:05</publishTime>
+      <publishTime>09/27/2018 00:45:28</publishTime>
     </File>
     <File Include="Content/docs/spa_VB.pdf">
       <publishTime>08/27/2018 22:58:16</publishTime>
@@ -357,6 +357,21 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/Catalog/Furnaces/Troll.jpg">
       <publishTime>07/10/2018 23:49:58</publishTime>
     </File>
+    <File Include="Content/img/Catalog/Hammam/black.jpg">
+      <publishTime>09/23/2018 23:19:16</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Hammam/calacatta.jpg">
+      <publishTime>09/23/2018 23:19:16</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Hammam/eramosa.jpg">
+      <publishTime>09/23/2018 23:19:16</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Hammam/SweetStreamPro.jpg">
+      <publishTime>09/23/2018 23:21:13</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Hammam/white.jpg">
+      <publishTime>09/23/2018 23:19:16</publishTime>
+    </File>
     <File Include="Content/img/Catalog/Index/experienceshower.jpg">
       <publishTime>08/27/2018 23:36:27</publishTime>
     </File>
@@ -443,6 +458,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/Catalog/SnowRoom/split.jpg">
       <publishTime>09/19/2018 00:04:25</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamGenerators/ES4.jpg">
+      <publishTime>09/27/2018 00:24:16</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamGenerators/ES4_1.jpg">
+      <publishTime>10/01/2018 23:59:57</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamGenerators/АТ4.jpg">
+      <publishTime>09/27/2018 00:23:24</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/SteamGenerators/АТ4_1.jpg">
+      <publishTime>10/02/2018 00:21:58</publishTime>
     </File>
     <File Include="Content/img/Catalog/SteamShower/black.jpg">
       <publishTime>09/19/2018 23:40:44</publishTime>
@@ -880,7 +907,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:58</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>09/20/2018 00:17:52</publishTime>
+      <publishTime>10/02/2018 00:23:55</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>07/02/2018 23:12:56</publishTime>
@@ -958,13 +985,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:57</publishTime>
     </File>
     <File Include="Views/Catalog/Furnaces.cshtml">
-      <publishTime>08/31/2018 00:20:29</publishTime>
+      <publishTime>09/21/2018 23:14:06</publishTime>
+    </File>
+    <File Include="Views/Catalog/Hammam.cshtml">
+      <publishTime>09/23/2018 23:39:30</publishTime>
     </File>
     <File Include="Views/Catalog/IceGenerators.cshtml">
       <publishTime>09/19/2018 00:32:10</publishTime>
     </File>
     <File Include="Views/Catalog/Index.cshtml">
-      <publishTime>09/19/2018 23:12:52</publishTime>
+      <publishTime>09/23/2018 23:34:44</publishTime>
     </File>
     <File Include="Views/Catalog/SaltRoom.cshtml">
       <publishTime>09/10/2018 23:14:28</publishTime>
@@ -990,6 +1020,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Catalog/Spa.cshtml">
       <publishTime>08/28/2018 00:26:42</publishTime>
     </File>
+    <File Include="Views/Catalog/SteamGenerators.cshtml">
+      <publishTime>10/02/2018 00:14:10</publishTime>
+    </File>
+    <File Include="Views/Catalog/SteamGenItems/AT4.cshtml">
+      <publishTime>10/02/2018 00:17:34</publishTime>
+    </File>
+    <File Include="Views/Catalog/SteamGenItems/ES4.cshtml">
+      <publishTime>10/02/2018 00:17:49</publishTime>
+    </File>
     <File Include="Views/Catalog/SteamShower.cshtml">
       <publishTime>09/19/2018 23:23:41</publishTime>
     </File>
@@ -1012,7 +1051,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/27/2018 22:58:17</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/01/2018 23:35:16</publishTime>
+      <publishTime>09/23/2018 23:34:27</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>07/02/2018 23:12:58</publishTime>
@@ -1048,7 +1087,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:58</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/12/2018 22:43:38</publishTime>
+      <publishTime>09/27/2018 00:19:38</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>07/02/2018 23:12:58</publishTime>

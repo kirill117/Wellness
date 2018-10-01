@@ -246,6 +246,11 @@
     <Content Include="Content\img\Catalog\Furnaces\LoraRobust.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Skult.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Troll.jpg" />
+    <Content Include="Content\img\Catalog\Hammam\black.jpg" />
+    <Content Include="Content\img\Catalog\Hammam\calacatta.jpg" />
+    <Content Include="Content\img\Catalog\Hammam\eramosa.jpg" />
+    <Content Include="Content\img\Catalog\Hammam\SweetStreamPro.jpg" />
+    <Content Include="Content\img\Catalog\Hammam\white.jpg" />
     <Content Include="Content\img\Catalog\Index\experienceshower.jpg" />
     <Content Include="Content\img\Catalog\Index\hammam.jpg" />
     <Content Include="Content\img\Catalog\Index\minibass.jpg" />
@@ -275,6 +280,10 @@
     <Content Include="Content\img\Catalog\SnowRoom\mono.jpg" />
     <Content Include="Content\img\Catalog\SnowRoom\SnowRoom1.jpg" />
     <Content Include="Content\img\Catalog\SnowRoom\split.jpg" />
+    <Content Include="Content\img\Catalog\SteamGenerators\ES4.jpg" />
+    <Content Include="Content\img\Catalog\SteamGenerators\ES4_1.jpg" />
+    <Content Include="Content\img\Catalog\SteamGenerators\АТ4.jpg" />
+    <Content Include="Content\img\Catalog\SteamGenerators\АТ4_1.jpg" />
     <Content Include="Content\img\Catalog\SteamShower\black.jpg" />
     <Content Include="Content\img\Catalog\SteamShower\calacatta.jpg" />
     <Content Include="Content\img\Catalog\SteamShower\eramosa.jpg" />
@@ -498,6 +507,10 @@
     <Content Include="Views\Catalog\SteamShower.cshtml" />
     <Content Include="Views\Catalog\SteamShowerItems\SweetSteamSmart.cshtml" />
     <Content Include="Views\Catalog\SteamShowerItems\SweetSpa.cshtml" />
+    <Content Include="Views\Catalog\Hammam.cshtml" />
+    <Content Include="Views\Catalog\SteamGenerators.cshtml" />
+    <Content Include="Views\Catalog\SteamGenItems\ES4.cshtml" />
+    <Content Include="Views\Catalog\SteamGenItems\AT4.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
