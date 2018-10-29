@@ -140,6 +140,7 @@ canvas,
 img,
 video {
     vertical-align : middle;
+    width: 100%;
     }
 
 /*
@@ -232,7 +233,7 @@ h2 {
   font-weight: 600;
   font-style: inherit;
   font-size: 2.143rem;
-  line-height: 0.700em;
+  line-height: 1.111em;
 }
 
 h3 {
@@ -357,6 +358,14 @@ body {
 .logo {
   
 }
+
+.starpool-logo {
+    float:right !important;
+    width:210px !important;
+    margin:0 !important;
+}
+
+
 
 .header-connection{
   text-align: right !important;
@@ -557,34 +566,13 @@ background: url('/Content/img/icon_top.png') no-repeat;
 }
 
 
-/* Extra small devices (phones, less than 768px) */
-@media (max-width : 767px) {
-    .logo{
-      margin-bottom: 15px;
-    }
-    .header-wrapper {
-      padding: 0; 
-    }
-
-    .header-connection {
-        text-align: left;
-    }
-
-    .navbar-default .navbar-toggle {
-      padding: 0 .5em;
-      top: -6px;
-    }
-    .main-nav-bar{
-      position:absolute;
-      top:2.857em;
-      right:0;
-    }
-}
 
 /*---------------------------
 offcanvas-menu
 --------------------------*/
-.offcanvas-menu {}
+.offcanvas-menu {
+    opacity:0.9;
+}
 .offcanvas i{
   font-size:1.75rem;
   color:rgba(0,0,0, .8);
@@ -620,7 +608,7 @@ offcanvas-menu
   display: block;
   text-decoration: none;
   color: #999999;
-  padding: 0 1em;
+  padding: 5px 1em;
 }
 #menu li a:hover,
 #menu li.active a {
@@ -887,7 +875,7 @@ offcanvas-menu
   position: absolute;
   left:0;
   bottom: 0;
-  padding: 0 40px 40px;
+  padding: 0 40px 50px;
 }
 .service-description h3{
     color: #ffffff;
@@ -920,6 +908,7 @@ offcanvas-menu
 @media(max-width: 767px){
   .service-section li:first-child {
     margin-right: 0;
+    display: block;
   }
   .service-section li a {
     font-size: 1rem;
@@ -1206,10 +1195,16 @@ color:#dddddd;
 ---------------------------*/
 
 .catalog-item-title {
-    font-size: 1.6em;
+    font-size: 1.5em;
     border:solid 1px #e8e8e8;
     padding: 10px;
     margin: 55px 15px 0px 15px;
+}
+
+.catalog-item-title img {
+    width: auto;
+    position:absolute;
+    right:20px;
 }
 
 .catalog-item-price {
@@ -1242,13 +1237,39 @@ color:#dddddd;
   text-transform: uppercase;  
 }
 
+.brand-line {
+    float:none !important;
+    margin: 0 !important;
+}
+
+.old-price {
+    text-decoration:line-through;
+    color: #dddddd;
+    margin-bottom: 5px !important;
+}
+
+.new-price {
+    color: #ff0000;
+    border: none !important;
+    margin-top: 0px !important;
+}
+
 @media(max-width: 991px){
   .company-mision{
     margin-bottom: 5em;
   }
 }
 
+@media(min-width: 991px) {
 
+    .sel-matherial img {
+        width: unset;
+    }
+
+    .cost-matherial {
+        width: inherit;
+    }
+}
 /*--------------------------------------------------
   Service style
 -------------------------------------------------*/
@@ -1384,11 +1405,11 @@ color:#dddddd;
   Map area
 -----------------------------------------------------*/
 .map-head{
-  padding-top: 5em;
+  padding-top: 1em;
 }
 .map-area{
     position:relative;
-    padding-top:4.286em;
+    padding-top: 2em;
 }
 .map-canvas {
     height     : 400px;
@@ -1455,19 +1476,56 @@ color:#dddddd;
     width:100%;
     margin:0 0 2.2em 0;
   }
+
+  .history-details img {
+      width: 100%;
+  }
+
+  .starpool-logo {
+      display:none;
+  }
+
+  .scrollup {
+      left:30px;
+      bottom:30px;
+  }
+
+  .page-title h2 {
+      padding:0;
+  }
+
   .contact-us .get-in-Touch h4{
     margin-top:2.2em;
   }
   .office-location{
-    margin: 3em  0 0;
+    margin: -5em  0 0;
   }
   .head-office{
     border-bottom:0;
   }
-}
-@media(min-width: 768px) and (max-width: 1199px){
-  #full-name, #email{
-    width:100%;
-    margin:0 0 2.2em 0;
-  }
+
+    .logo{
+      margin-bottom: 15px;
+    }
+    .header-wrapper {
+      padding: 0; 
+    }
+
+    .header-connection {
+        text-align: left;
+    }
+
+    .navbar-default .navbar-toggle {
+      padding: 0 .5em;
+      top: -6px;
+    }
+    .main-nav-bar{
+      position:absolute;
+      top:2.857em;
+      right:0;
+    }
+
+    .welcome-section {
+        padding:0;
+    }
 }
