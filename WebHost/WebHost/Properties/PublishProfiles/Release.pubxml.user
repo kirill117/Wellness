@@ -13,10 +13,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2013 08:43:40</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>10/02/2018 00:24:01</publishTime>
+      <publishTime>11/18/2018 22:53:30</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>10/02/2018 00:24:01</publishTime>
+      <publishTime>11/18/2018 22:53:30</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -133,7 +133,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/17/2013 17:03:52</publishTime>
     </File>
     <File Include="bin/WebHost.dll">
-      <publishTime>10/02/2018 00:23:51</publishTime>
+      <publishTime>11/18/2018 22:53:02</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
       <publishTime>07/02/2018 23:12:50</publishTime>
@@ -223,7 +223,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:50</publishTime>
     </File>
     <File Include="Content/css/style.css">
-      <publishTime>09/27/2018 00:45:28</publishTime>
+      <publishTime>10/26/2018 23:33:11</publishTime>
     </File>
     <File Include="Content/docs/spa_VB.pdf">
       <publishTime>08/27/2018 22:58:16</publishTime>
@@ -293,6 +293,30 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/brand_line.jpg">
       <publishTime>09/14/2018 22:59:59</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/deckchairs.jpg">
+      <publishTime>11/15/2018 23:37:21</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/Deckchairs/BRIDGE.jpg">
+      <publishTime>11/18/2018 22:26:46</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/Deckchairs/STARLIT.jpg">
+      <publishTime>11/18/2018 22:50:56</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/Deckchairs/STARLOUNGE.jpg">
+      <publishTime>11/18/2018 22:51:10</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/Deckchairs/sweetchairluxury.jpg">
+      <publishTime>11/18/2018 22:51:20</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/Deckchairs/SYNUA.jpg">
+      <publishTime>11/18/2018 22:51:29</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/heat_deckchairs.jpg">
+      <publishTime>11/15/2018 23:38:24</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/relaxation.jpg">
+      <publishTime>11/15/2018 23:41:26</publishTime>
     </File>
     <File Include="Content/img/Catalog/Furnaces/Arne.jpg">
       <publishTime>07/10/2018 23:49:58</publishTime>
@@ -520,22 +544,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/02/2018 00:05:41</publishTime>
     </File>
     <File Include="Content/img/client1.jpg">
-      <publishTime>07/02/2018 23:12:52</publishTime>
+      <publishTime>11/08/2018 00:01:07</publishTime>
     </File>
     <File Include="Content/img/client2.jpg">
-      <publishTime>07/02/2018 23:12:52</publishTime>
+      <publishTime>11/08/2018 00:09:49</publishTime>
     </File>
     <File Include="Content/img/client3.jpg">
-      <publishTime>07/02/2018 23:12:52</publishTime>
+      <publishTime>11/08/2018 00:10:04</publishTime>
     </File>
     <File Include="Content/img/client4.jpg">
-      <publishTime>07/02/2018 23:12:52</publishTime>
+      <publishTime>11/08/2018 00:11:51</publishTime>
     </File>
     <File Include="Content/img/client5.jpg">
-      <publishTime>07/02/2018 23:12:52</publishTime>
+      <publishTime>11/08/2018 00:10:42</publishTime>
     </File>
     <File Include="Content/img/client6.jpg">
-      <publishTime>07/03/2018 00:23:25</publishTime>
+      <publishTime>11/08/2018 00:11:37</publishTime>
     </File>
     <File Include="Content/img/clients/client1.jpg">
       <publishTime>07/02/2018 23:12:52</publishTime>
@@ -855,8 +879,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/welcome.jpg">
       <publishTime>08/27/2018 22:58:17</publishTime>
     </File>
+    <File Include="Content/img/welcome1.jpg">
+      <publishTime>11/03/2018 22:38:27</publishTime>
+    </File>
     <File Include="Content/js/bootstrap.min.js">
-      <publishTime>07/02/2018 23:12:54</publishTime>
+      <publishTime>10/03/2018 23:56:06</publishTime>
     </File>
     <File Include="Content/js/easing.js">
       <publishTime>07/02/2018 23:12:54</publishTime>
@@ -883,7 +910,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:55</publishTime>
     </File>
     <File Include="Content/js/script.js">
-      <publishTime>09/12/2018 22:53:35</publishTime>
+      <publishTime>11/07/2018 23:49:29</publishTime>
     </File>
     <File Include="Content/Site.css">
       <publishTime>07/02/2018 23:12:50</publishTime>
@@ -907,7 +934,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:58</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>10/02/2018 00:23:55</publishTime>
+      <publishTime>11/18/2018 22:53:14</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>07/02/2018 23:12:56</publishTime>
@@ -984,8 +1011,29 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
       <publishTime>07/02/2018 23:12:57</publishTime>
     </File>
+    <File Include="Views/Catalog/Accessories.cshtml">
+      <publishTime>11/16/2018 00:28:07</publishTime>
+    </File>
+    <File Include="Views/Catalog/Accessories/Deckchairs/Index.cshtml">
+      <publishTime>11/18/2018 22:45:18</publishTime>
+    </File>
+    <File Include="Views/Catalog/Accessories/Deckchairs/Items/Bridge.cshtml">
+      <publishTime>11/18/2018 22:24:29</publishTime>
+    </File>
+    <File Include="Views/Catalog/Accessories/Deckchairs/Items/Starlit.cshtml">
+      <publishTime>11/18/2018 22:31:34</publishTime>
+    </File>
+    <File Include="Views/Catalog/Accessories/Deckchairs/Items/Starlounge.cshtml">
+      <publishTime>11/18/2018 22:37:08</publishTime>
+    </File>
+    <File Include="Views/Catalog/Accessories/Deckchairs/Items/SweetChairLuxury.cshtml">
+      <publishTime>11/18/2018 22:47:05</publishTime>
+    </File>
+    <File Include="Views/Catalog/Accessories/Deckchairs/Items/Synua.cshtml">
+      <publishTime>11/18/2018 22:45:17</publishTime>
+    </File>
     <File Include="Views/Catalog/Furnaces.cshtml">
-      <publishTime>09/21/2018 23:14:06</publishTime>
+      <publishTime>11/10/2018 23:57:42</publishTime>
     </File>
     <File Include="Views/Catalog/Hammam.cshtml">
       <publishTime>09/23/2018 23:39:30</publishTime>
@@ -1000,22 +1048,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/10/2018 23:14:28</publishTime>
     </File>
     <File Include="Views/Catalog/Sauna.cshtml">
-      <publishTime>09/17/2018 00:06:17</publishTime>
+      <publishTime>10/10/2018 00:18:16</publishTime>
     </File>
     <File Include="Views/Catalog/SaunaItems/SweetSauna90.cshtml">
-      <publishTime>09/10/2018 23:50:21</publishTime>
+      <publishTime>10/18/2018 23:50:22</publishTime>
     </File>
     <File Include="Views/Catalog/SaunaItems/SweetSauna90Infrared.cshtml">
-      <publishTime>09/19/2018 00:47:19</publishTime>
+      <publishTime>10/18/2018 23:44:47</publishTime>
     </File>
     <File Include="Views/Catalog/SaunaItems/SweetSaunaPro.cshtml">
-      <publishTime>09/13/2018 23:32:06</publishTime>
+      <publishTime>10/18/2018 23:51:02</publishTime>
     </File>
     <File Include="Views/Catalog/SaunaItems/SweetSaunaSmart.cshtml">
-      <publishTime>09/13/2018 23:34:47</publishTime>
+      <publishTime>10/18/2018 23:51:02</publishTime>
     </File>
     <File Include="Views/Catalog/SaunaItems/SweetSaunaSmartInfrared.cshtml">
-      <publishTime>09/19/2018 00:48:26</publishTime>
+      <publishTime>10/18/2018 23:51:00</publishTime>
     </File>
     <File Include="Views/Catalog/Spa.cshtml">
       <publishTime>08/28/2018 00:26:42</publishTime>
@@ -1045,13 +1093,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/03/2018 00:13:47</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>07/02/2018 23:12:58</publishTime>
+      <publishTime>10/08/2018 23:38:53</publishTime>
     </File>
     <File Include="Views/Home/Gallery.cshtml">
       <publishTime>08/27/2018 22:58:17</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/23/2018 23:34:27</publishTime>
+      <publishTime>11/15/2018 23:46:06</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>07/02/2018 23:12:58</publishTime>
@@ -1087,7 +1135,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:58</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/27/2018 00:19:38</publishTime>
+      <publishTime>11/15/2018 23:45:27</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>07/02/2018 23:12:58</publishTime>

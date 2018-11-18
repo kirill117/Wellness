@@ -78,5 +78,23 @@ namespace WebHost.Controllers
         {
             return View();
         }
+        
+
+        public ActionResult Deckchairs(string id)
+        {
+            var actionName = "Accessories/Deckchairs/Index";
+
+            if (!string.IsNullOrEmpty(id))
+            {
+                actionName = "Accessories/Deckchairs/Items/" + id;
+            }
+
+            return View(actionName);
+        }
+
+        public ActionResult Accessories()
+        {
+            return View();
+        }
     }
 }

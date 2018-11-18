@@ -14,6 +14,12 @@ namespace WebHost
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "Accessories",
+                url: "{controller}/Accessories/{action}/{id}",
+                defaults: new { controller = "Catalog", action = "Accessories", id = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

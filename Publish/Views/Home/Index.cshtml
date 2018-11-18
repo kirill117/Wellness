@@ -2,13 +2,28 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $('#slider').nivoSlider({
+            directionNav: true,
+            directionNavHide: false,
+            controlNav: false,
+            controlNavThumbs: false,
+            pauseTime: 5000
+        });
+    });
+</script>
 
 <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="welcome-section">
                 <div class="welcome-thumb">
-                    <img src="~/Content/img/welcome.jpg" alt="welcome fontanero">
+                    <div id="slider" class="theme-default nivoSlider">
+                        <img src="~/Content/img/welcome.jpg" alt="Строительство саун">
+                        @*<img src="~/Content/img/welcome1.jpg" alt="Строительство саун">*@
+                    </div>
                 </div>
                 <div class="welcome-content">
                     <h3>Wellness Solution</h3>
@@ -48,6 +63,41 @@
 
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="residential">
+
+                    <div class="col-md-4 col-xs-12 col-sm-6">
+                        <div class="service-item">
+                            <div class="service-thumb">
+                                <img src="~/Content/img/service/private4.jpg" alt="">
+                            </div>
+                            <div class="service-description">
+                                <a href="~/Catalog/Sauna"><h3>Сауны и бани</h3></a>
+                                <p>Устройство и монтаж модульных саун и бань</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 col-sm-6">
+                        <div class="service-item">
+                            <div class="service-thumb">
+                                <img src="~/Content/img/service/private5.jpg" alt="">
+                            </div>
+                            <div class="service-description">
+                                <a href="~/Catalog/Furnaces"><h3>Печи для саун и бань</h3></a>
+                                <p>Продажа оборудования для технического оснащения саун и бань</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 col-sm-6">
+                        <div class="service-item">
+                            <div class="service-thumb">
+                                <img src="~/Content/img/service/private6.jpg" alt="">
+                            </div>
+                            <div class="service-description">
+                                <a href="~/Catalog/Accessories"><h3>Аксессуары</h3></a>
+                                <p>Каталог сопутствующих товаров для саун и бань</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-md-4 col-xs-12 col-sm-6">
                         <div class="service-item">
                             <div class="service-thumb">
@@ -78,39 +128,6 @@
                             <div class="service-description">
                                 <a href="~/Service/Maintenance"><h3>Сервис</h3></a>
                                 <p>Техническое обслуживание оборудования бассейнов и SPA</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12 col-sm-6">
-                        <div class="service-item">
-                            <div class="service-thumb">
-                                <img src="~/Content/img/service/private4.jpg" alt="">
-                            </div>
-                            <div class="service-description">
-                                <a href="~/Catalog/Sauna"><h3>Сауны и бани</h3></a>
-                                <p>Устройство и монтаж модульных саун и бань</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12 col-sm-6">
-                        <div class="service-item">
-                            <div class="service-thumb">
-                                <img src="~/Content/img/service/private5.jpg" alt="">
-                            </div>
-                            <div class="service-description">
-                                <a href="~/Catalog/Furnaces"><h3>Печи для саун и бань</h3></a>
-                                <p>Продажа оборудования для технического оснащения саун и бань</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12 col-sm-6">
-                        <div class="service-item">
-                            <div class="service-thumb">
-                                <img src="~/Content/img/service/private6.jpg" alt="">
-                            </div>
-                            <div class="service-description">
-                                <a href="#"><h3>Аксессуары</h3></a>
-                                <p>Каталог сопутствующих товаров для саун и бань</p>
                             </div>
                         </div>
                     </div>

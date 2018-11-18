@@ -152,7 +152,9 @@ jQuery(function ($) {
             $("#our-client-thumb").owlCarousel({
               pagination: false,
               autoPlay: 3000, //Set AutoPlay to 3 seconds     
-              items : 3,
+              items: 3,
+              autoWidth: true,
+              margin: 10,
               itemsDesktop : [1199,4],
               itemsTablet : [768,3]
             });

@@ -225,6 +225,14 @@
     <Content Include="Content\img\about1.jpg" />
     <Content Include="Content\img\about2.jpg" />
     <Content Include="Content\img\brand_line.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\deckchairs.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\Deckchairs\BRIDGE.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\Deckchairs\STARLIT.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\Deckchairs\STARLOUNGE.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\Deckchairs\sweetchairluxury.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\Deckchairs\SYNUA.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\heat_deckchairs.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\relaxation.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Arne.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Arthur.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\ArthurMH.jpg" />
@@ -412,6 +420,7 @@
     <Content Include="Content\img\starpoollogo.jpg" />
     <Content Include="Content\img\vision.jpg" />
     <Content Include="Content\img\welcome.jpg" />
+    <Content Include="Content\img\welcome1.jpg" />
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Content\js\easing.js" />
     <Content Include="Content\js\hippo-off-canvas.js" />
@@ -511,6 +520,13 @@
     <Content Include="Views\Catalog\SteamGenerators.cshtml" />
     <Content Include="Views\Catalog\SteamGenItems\ES4.cshtml" />
     <Content Include="Views\Catalog\SteamGenItems\AT4.cshtml" />
+    <Content Include="Views\Catalog\Accessories.cshtml" />
+    <Content Include="Views\Catalog\Accessories\Deckchairs\Index.cshtml" />
+    <Content Include="Views\Catalog\Accessories\Deckchairs\Items\Bridge.cshtml" />
+    <Content Include="Views\Catalog\Accessories\Deckchairs\Items\Starlit.cshtml" />
+    <Content Include="Views\Catalog\Accessories\Deckchairs\Items\Synua.cshtml" />
+    <Content Include="Views\Catalog\Accessories\Deckchairs\Items\SweetChairLuxury.cshtml" />
+    <Content Include="Views\Catalog\Accessories\Deckchairs\Items\Starlounge.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

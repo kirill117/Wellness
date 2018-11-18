@@ -1,0 +1,100 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type='text/javascript' src='~/content/fancybox/jquery.fancybox.min.js'></script>
+<link rel='stylesheet' href='~/content/fancybox/jquery.fancybox.min.css' type='text/css' />
+
+<script>
+    $(document).ready(function () {
+        $("[data-fancybox]").fancybox({
+            'scrolling': 'yes'
+        });
+    });
+</script>
+
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-title">
+                    <h2>Шезлонги</h2>
+                    <ul class="breadcrumb">
+                        <li><a href="~/Home/Index">Главная</a></li>
+                        <li class="">Каталог</li>
+                        <li class=""><a href="~/Catalog/Accessories">Аксессуары</a></li>
+                        <li class="active">Шезлонги</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- .row-->
+    </div>
+    <!-- .container-->
+</div>
+<!-- .breadcrumb-area-->
+<div class="container">
+    <div class="row catalog-item-small">
+        <div class="col-md-3">
+            <div>
+                <img src="~/Content/img/Catalog/Accessories/Deckchairs/Bridge.jpg" alt="" style="width:100%;">
+            </div>
+            <div>
+                <a href="~/Catalog/Accessories/Deckchairs/Bridge">Bridge</a>
+            </div>
+            <div class="text-center">
+                <div>По запросу</div>
+                <a class="btn btn-order" href="#">Заказать</a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div>
+                <img src="~/Content/img/Catalog/Accessories/Deckchairs/Starlit.jpg" alt="" style="width:100%;">
+            </div>
+            <div>
+                <a href="~/Catalog/Accessories/Deckchairs/Starlit">Starlit</a>
+            </div>
+            <div class="text-center">
+                <div>По запросу</div>
+                <a class="btn btn-order" href="#">Заказать</a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div>
+                <img src="~/Content/img/Catalog/Accessories/Deckchairs/Starlounge.jpg" alt="" style="width:100%;">
+            </div>
+            <div>
+                <a href="~/Catalog/Accessories/Deckchairs/Starlounge">Starlounge</a>
+            </div>
+            <div class="text-center">
+                <div>По запросу</div>
+                <a class="btn btn-order" href="#">Заказать</a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div>
+                <img src="~/Content/img/Catalog/Accessories/Deckchairs/SweetChairLuxury.jpg" alt="" style="width:100%;">
+            </div>
+            <div>
+                <a href="~/Catalog/Accessories/Deckchairs/SweetChairLuxury">Sweet Chair Luxury</a>
+            </div>
+            <div class="text-center">
+                <div>По запросу</div>
+                <a class="btn btn-order" href="#">Заказать</a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div>
+                <img src="~/Content/img/Catalog/Accessories/Deckchairs/SYNUA.jpg" alt="" style="width:100%;">
+            </div>
+            <div>
+                <a href="~/Catalog/Accessories/Deckchairs/Synua">SYNUA</a>
+            </div>
+            <div class="text-center">
+                <div>По запросу</div>
+                <a class="btn btn-order" href="#">Заказать</a>
+            </div>
+        </div>
+
+    </div>
+</div>
