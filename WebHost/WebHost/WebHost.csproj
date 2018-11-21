@@ -231,6 +231,9 @@
     <Content Include="Content\img\Catalog\Accessories\Deckchairs\STARLOUNGE.jpg" />
     <Content Include="Content\img\Catalog\Accessories\Deckchairs\sweetchairluxury.jpg" />
     <Content Include="Content\img\Catalog\Accessories\Deckchairs\SYNUA.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\HeatDeckchairs\LoungerOne.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\HeatDeckchairs\LoungerTwo.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\HeatDeckchairs\LoungerTwoPlus.jpg" />
     <Content Include="Content\img\Catalog\Accessories\heat_deckchairs.jpg" />
     <Content Include="Content\img\Catalog\Accessories\relaxation.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Arne.jpg" />
@@ -527,6 +530,7 @@
     <Content Include="Views\Catalog\Accessories\Deckchairs\Items\Synua.cshtml" />
     <Content Include="Views\Catalog\Accessories\Deckchairs\Items\SweetChairLuxury.cshtml" />
     <Content Include="Views\Catalog\Accessories\Deckchairs\Items\Starlounge.cshtml" />
+    <Content Include="Views\Catalog\Accessories\HeatDeckchairs\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

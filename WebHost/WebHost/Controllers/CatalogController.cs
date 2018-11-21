@@ -92,6 +92,11 @@ namespace WebHost.Controllers
             return View(actionName);
         }
 
+        public ActionResult HeatDeckchairs()
+        {
+            return View("Accessories/HeatDeckchairs/Index");
+        }
+
         public ActionResult Accessories()
         {
             return View();
