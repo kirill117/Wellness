@@ -1,0 +1,76 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type='text/javascript' src='~/content/fancybox/jquery.fancybox.min.js'></script>
+<link rel='stylesheet' href='~/content/fancybox/jquery.fancybox.min.css' type='text/css' />
+
+<script>
+    $(document).ready(function () {
+        $("[data-fancybox]").fancybox({
+            'scrolling': 'yes'
+        });
+    });
+</script>
+
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-title">
+                    <h2>Релаксация</h2>
+                    <ul class="breadcrumb">
+                        <li><a href="~/Home/Index">Главная</a></li>
+                        <li class="">Каталог</li>
+                        <li class=""><a href="~/Catalog/Accessories">Аксессуары</a></li>
+                        <li class="active">Релаксация</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- .row-->
+    </div>
+    <!-- .container-->
+</div>
+<!-- .breadcrumb-area-->
+<div class="container">
+    <div class="row catalog-item-small">
+        <div class="col-md-4">
+            <div class="text-center">
+                <a href="~/Catalog/Accessories/Relax/Dune">
+                    <img src="~/Content/img/Catalog/Accessories/Relax/dune1.jpg" alt="" style="width:100%;">
+                    <span>Dune</span>
+                </a>
+            </div>
+            <div class="text-center">
+                <div>По запросу</div>
+                <a class="btn btn-order" href="#">Заказать</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+                <a href="~/Catalog/Accessories/Relax/Spatable">
+                    <img src="~/Content/img/Catalog/Accessories/Relax/spatable1.jpg" alt="" style="width:100%;">
+                    <span>SpaTable</span>
+                </a>
+            </div>
+            <div class="text-center">
+                <div>По запросу</div>
+                <a class="btn btn-order" href="#">Заказать</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+                <a href="~/Catalog/Accessories/Relax/Wave">
+                    <img src="~/Content/img/Catalog/Accessories/Relax/wave1.jpg" alt="" style="width:100%;">
+                    <span>Wave</span>
+                </a>
+            </div>
+            <div class="text-center">
+                <div>По запросу</div>
+                <a class="btn btn-order" href="#">Заказать</a>
+            </div>
+        </div>
+
+    </div>
+</div>

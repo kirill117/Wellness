@@ -13,10 +13,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2013 08:43:40</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>11/18/2018 22:53:30</publishTime>
+      <publishTime>11/30/2018 00:20:36</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>11/18/2018 22:53:30</publishTime>
+      <publishTime>11/30/2018 00:20:35</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -133,7 +133,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/17/2013 17:03:52</publishTime>
     </File>
     <File Include="bin/WebHost.dll">
-      <publishTime>11/18/2018 22:53:02</publishTime>
+      <publishTime>11/30/2018 00:20:19</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
       <publishTime>07/02/2018 23:12:50</publishTime>
@@ -223,7 +223,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:50</publishTime>
     </File>
     <File Include="Content/css/style.css">
-      <publishTime>10/26/2018 23:33:11</publishTime>
+      <publishTime>11/21/2018 22:56:25</publishTime>
     </File>
     <File Include="Content/docs/spa_VB.pdf">
       <publishTime>08/27/2018 22:58:16</publishTime>
@@ -291,6 +291,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/about2.jpg">
       <publishTime>07/03/2018 00:14:10</publishTime>
     </File>
+    <File Include="Content/img/Articles/Role/role1.jpg">
+      <publishTime>11/30/2018 00:18:23</publishTime>
+    </File>
+    <File Include="Content/img/Articles/Role/role2.jpg">
+      <publishTime>11/30/2018 00:18:35</publishTime>
+    </File>
     <File Include="Content/img/brand_line.jpg">
       <publishTime>09/14/2018 22:59:59</publishTime>
     </File>
@@ -312,8 +318,35 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/Catalog/Accessories/Deckchairs/SYNUA.jpg">
       <publishTime>11/18/2018 22:51:29</publishTime>
     </File>
+    <File Include="Content/img/Catalog/Accessories/HeatDeckchairs/LoungerOne.jpg">
+      <publishTime>11/21/2018 22:22:38</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/HeatDeckchairs/LoungerTwo.jpg">
+      <publishTime>11/21/2018 22:23:50</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/HeatDeckchairs/LoungerTwoPlus.jpg">
+      <publishTime>11/21/2018 22:24:54</publishTime>
+    </File>
     <File Include="Content/img/Catalog/Accessories/heat_deckchairs.jpg">
       <publishTime>11/15/2018 23:38:24</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/Relax/dune1.jpg">
+      <publishTime>11/26/2018 22:50:05</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/Relax/dune2.jpg">
+      <publishTime>09/06/2018 11:29:26</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/Relax/spatable1.jpg">
+      <publishTime>11/26/2018 22:50:33</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/Relax/spatable2.jpg">
+      <publishTime>09/04/2018 16:45:24</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/Relax/wave1.jpg">
+      <publishTime>11/26/2018 22:51:06</publishTime>
+    </File>
+    <File Include="Content/img/Catalog/Accessories/Relax/wave2.jpg">
+      <publishTime>09/06/2018 12:42:06</publishTime>
     </File>
     <File Include="Content/img/Catalog/Accessories/relaxation.jpg">
       <publishTime>11/15/2018 23:41:26</publishTime>
@@ -934,7 +967,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:58</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>11/18/2018 22:53:14</publishTime>
+      <publishTime>11/30/2018 00:20:26</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>07/02/2018 23:12:56</publishTime>
@@ -1011,8 +1044,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
       <publishTime>07/02/2018 23:12:57</publishTime>
     </File>
+    <File Include="Views/Articles/Role.cshtml">
+      <publishTime>11/30/2018 00:16:36</publishTime>
+    </File>
     <File Include="Views/Catalog/Accessories.cshtml">
-      <publishTime>11/16/2018 00:28:07</publishTime>
+      <publishTime>11/26/2018 22:36:18</publishTime>
     </File>
     <File Include="Views/Catalog/Accessories/Deckchairs/Index.cshtml">
       <publishTime>11/18/2018 22:45:18</publishTime>
@@ -1027,10 +1063,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/18/2018 22:37:08</publishTime>
     </File>
     <File Include="Views/Catalog/Accessories/Deckchairs/Items/SweetChairLuxury.cshtml">
-      <publishTime>11/18/2018 22:47:05</publishTime>
+      <publishTime>11/18/2018 23:02:21</publishTime>
     </File>
     <File Include="Views/Catalog/Accessories/Deckchairs/Items/Synua.cshtml">
       <publishTime>11/18/2018 22:45:17</publishTime>
+    </File>
+    <File Include="Views/Catalog/Accessories/HeatDeckchairs/Index.cshtml">
+      <publishTime>11/21/2018 22:47:37</publishTime>
+    </File>
+    <File Include="Views/Catalog/Accessories/Relax/Index.cshtml">
+      <publishTime>11/26/2018 23:07:09</publishTime>
+    </File>
+    <File Include="Views/Catalog/Accessories/Relax/Items/dune.cshtml">
+      <publishTime>11/26/2018 23:12:26</publishTime>
+    </File>
+    <File Include="Views/Catalog/Accessories/Relax/Items/spatable.cshtml">
+      <publishTime>11/26/2018 23:12:28</publishTime>
+    </File>
+    <File Include="Views/Catalog/Accessories/Relax/Items/wave.cshtml">
+      <publishTime>11/26/2018 23:16:37</publishTime>
     </File>
     <File Include="Views/Catalog/Furnaces.cshtml">
       <publishTime>11/10/2018 23:57:42</publishTime>
@@ -1135,7 +1186,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:58</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>11/15/2018 23:45:27</publishTime>
+      <publishTime>11/30/2018 00:13:14</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>07/02/2018 23:12:58</publishTime>

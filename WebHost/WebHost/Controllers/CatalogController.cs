@@ -92,6 +92,18 @@ namespace WebHost.Controllers
             return View(actionName);
         }
 
+        public ActionResult Relax(string id)
+        {
+            var actionName = "Accessories/Relax/Index";
+
+            if (!string.IsNullOrEmpty(id))
+            {
+                actionName = "Accessories/Relax/Items/" + id;
+            }
+
+            return View(actionName);
+        }
+
         public ActionResult HeatDeckchairs()
         {
             return View("Accessories/HeatDeckchairs/Index");

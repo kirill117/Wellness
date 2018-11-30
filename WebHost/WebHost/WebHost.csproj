@@ -168,6 +168,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ArticlesController.cs" />
     <Compile Include="Controllers\CatalogController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -224,6 +225,8 @@
     <Content Include="Content\img\about.jpg" />
     <Content Include="Content\img\about1.jpg" />
     <Content Include="Content\img\about2.jpg" />
+    <Content Include="Content\img\Articles\Role\role1.jpg" />
+    <Content Include="Content\img\Articles\Role\role2.jpg" />
     <Content Include="Content\img\brand_line.jpg" />
     <Content Include="Content\img\Catalog\Accessories\deckchairs.jpg" />
     <Content Include="Content\img\Catalog\Accessories\Deckchairs\BRIDGE.jpg" />
@@ -236,6 +239,12 @@
     <Content Include="Content\img\Catalog\Accessories\HeatDeckchairs\LoungerTwoPlus.jpg" />
     <Content Include="Content\img\Catalog\Accessories\heat_deckchairs.jpg" />
     <Content Include="Content\img\Catalog\Accessories\relaxation.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\Relax\dune1.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\Relax\dune2.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\Relax\spatable1.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\Relax\spatable2.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\Relax\wave1.jpg" />
+    <Content Include="Content\img\Catalog\Accessories\Relax\wave2.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Arne.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\Arthur.jpg" />
     <Content Include="Content\img\Catalog\Furnaces\ArthurMH.jpg" />
@@ -531,6 +540,11 @@
     <Content Include="Views\Catalog\Accessories\Deckchairs\Items\SweetChairLuxury.cshtml" />
     <Content Include="Views\Catalog\Accessories\Deckchairs\Items\Starlounge.cshtml" />
     <Content Include="Views\Catalog\Accessories\HeatDeckchairs\Index.cshtml" />
+    <Content Include="Views\Catalog\Accessories\Relax\Index.cshtml" />
+    <Content Include="Views\Catalog\Accessories\Relax\Items\dune.cshtml" />
+    <Content Include="Views\Catalog\Accessories\Relax\Items\spatable.cshtml" />
+    <Content Include="Views\Catalog\Accessories\Relax\Items\wave.cshtml" />
+    <Content Include="Views\Articles\Role.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
