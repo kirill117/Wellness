@@ -13,10 +13,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2013 08:43:40</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>11/30/2018 00:20:36</publishTime>
+      <publishTime>12/03/2018 01:21:59</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>11/30/2018 00:20:35</publishTime>
+      <publishTime>12/03/2018 01:21:59</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -133,7 +133,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/17/2013 17:03:52</publishTime>
     </File>
     <File Include="bin/WebHost.dll">
-      <publishTime>11/30/2018 00:20:19</publishTime>
+      <publishTime>12/03/2018 01:21:32</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
       <publishTime>07/02/2018 23:12:50</publishTime>
@@ -290,6 +290,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/about2.jpg">
       <publishTime>07/03/2018 00:14:10</publishTime>
+    </File>
+    <File Include="Content/img/Articles/Electric/e1.jpg">
+      <publishTime>12/03/2018 00:44:17</publishTime>
+    </File>
+    <File Include="Content/img/Articles/Electric/e2.jpg">
+      <publishTime>12/03/2018 00:44:33</publishTime>
+    </File>
+    <File Include="Content/img/Articles/Electric/e3.jpg">
+      <publishTime>12/03/2018 00:44:44</publishTime>
+    </File>
+    <File Include="Content/img/Articles/Electric/e4.gif">
+      <publishTime>12/03/2018 00:44:56</publishTime>
     </File>
     <File Include="Content/img/Articles/Role/role1.jpg">
       <publishTime>11/30/2018 00:18:23</publishTime>
@@ -967,7 +979,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:58</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>11/30/2018 00:20:26</publishTime>
+      <publishTime>12/03/2018 01:21:44</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>07/02/2018 23:12:56</publishTime>
@@ -1043,6 +1055,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
       <publishTime>07/02/2018 23:12:57</publishTime>
+    </File>
+    <File Include="Views/Articles/Electric.cshtml">
+      <publishTime>12/03/2018 01:18:53</publishTime>
     </File>
     <File Include="Views/Articles/Role.cshtml">
       <publishTime>11/30/2018 00:16:36</publishTime>
@@ -1186,7 +1201,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 23:12:58</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>11/30/2018 00:13:14</publishTime>
+      <publishTime>12/03/2018 00:47:09</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>07/02/2018 23:12:58</publishTime>

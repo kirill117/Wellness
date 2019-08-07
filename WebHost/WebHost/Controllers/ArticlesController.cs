@@ -13,5 +13,10 @@ namespace WebHost.Controllers
         {
             return View();
         }
+
+        public ActionResult Electric()
+        {
+            return View();
+        }
     }
 }

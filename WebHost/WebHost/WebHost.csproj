@@ -225,6 +225,10 @@
     <Content Include="Content\img\about.jpg" />
     <Content Include="Content\img\about1.jpg" />
     <Content Include="Content\img\about2.jpg" />
+    <Content Include="Content\img\Articles\Electric\e1.jpg" />
+    <Content Include="Content\img\Articles\Electric\e2.jpg" />
+    <Content Include="Content\img\Articles\Electric\e3.jpg" />
+    <Content Include="Content\img\Articles\Electric\e4.gif" />
     <Content Include="Content\img\Articles\Role\role1.jpg" />
     <Content Include="Content\img\Articles\Role\role2.jpg" />
     <Content Include="Content\img\brand_line.jpg" />
@@ -433,6 +437,7 @@
     <Content Include="Content\img\vision.jpg" />
     <Content Include="Content\img\welcome.jpg" />
     <Content Include="Content\img\welcome1.jpg" />
+    <Content Include="Content\img\welcome2.jpg" />
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Content\js\easing.js" />
     <Content Include="Content\js\hippo-off-canvas.js" />
@@ -545,6 +550,7 @@
     <Content Include="Views\Catalog\Accessories\Relax\Items\spatable.cshtml" />
     <Content Include="Views\Catalog\Accessories\Relax\Items\wave.cshtml" />
     <Content Include="Views\Articles\Role.cshtml" />
+    <Content Include="Views\Articles\Electric.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
