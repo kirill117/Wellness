@@ -90,7 +90,7 @@ jQuery(function ($) {
     }());
 
     // -------------------------------------------------------------
-    // ������ ��������
+    // Кнопка заказать
     // -------------------------------------------------------------
     (function () {
         $('.btn-order').on('click', function (e) {
@@ -113,10 +113,17 @@ jQuery(function ($) {
     (function () {
         $('.btn-send-order').on('click', function (e) {
             e.preventDefault();
+            
+            var cnt = $(this).attr('parentform');
 
-            var frm = $("#dialog-order").find('.main-contact-form');
+            if (!cnt) {
+                cnt = "dialog-order"
+            }
 
-            $("#dialog-order").modal('hide');
+            var frm = $("#" + cnt).find('.main-contact-form');
+
+
+           
 
             $.ajax({
                 type: 'POST',
@@ -140,6 +147,13 @@ jQuery(function ($) {
             frm.find('input[type="text"], input[type="email"], textarea').each(function () {
                 $(this).val('');
             });
+
+            if (cnt == 'dialog-order') {
+                $("#dialog-order").modal('hide');
+            }
+            else {
+                alert('Ваше сообщение отправлено');
+            }
 
         });
     }());
