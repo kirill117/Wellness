@@ -3,6 +3,8 @@
 Logs
 bin
 obj
+publish
+Publish
 packages
 bundles
 *.fxp
@@ -55,3 +57,4 @@ WebHost/Properties/PublishProfiles/TestZrp.pubxml.user
 WebHost/Web.config
 *.old
 WebHost/Logs/del_nad_log.txt
+*.user
