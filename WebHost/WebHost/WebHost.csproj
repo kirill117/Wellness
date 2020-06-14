@@ -283,6 +283,7 @@
     <Content Include="Content\img\Catalog\Index\saltrooms.jpg" />
     <Content Include="Content\img\Catalog\Index\snowrooms.JPG" />
     <Content Include="Content\img\Catalog\Index\steamshower.jpg" />
+    <Content Include="Content\img\Catalog\RMS\toplogo.png" />
     <Content Include="Content\img\Catalog\SaltRoom\SaltCabine.jpg" />
     <Content Include="Content\img\Catalog\SaltRoom\SaltRoom.jpg" />
     <Content Include="Content\img\Catalog\SaltRoom\SaltSauna.jpg" />
@@ -468,6 +469,11 @@
     <Content Include="Content\fonts\Raleway-Regular.ttf" />
     <Content Include="Content\docs\spa_VB.pdf" />
     <Content Include="Content\fonts\GOTHIC.TTF" />
+    <Content Include="Content\img\Catalog\RMS\CS-1_Regular.pdf" />
+    <Content Include="Content\img\Catalog\RMS\E-15S.pdf" />
+    <Content Include="Content\img\Catalog\RMS\Jumbo_Line_X-Tra.pdf" />
+    <Content Include="Content\img\Catalog\RMS\SITZ_BATH.pdf" />
+    <Content Include="Content\img\Catalog\RMS\Swiss_shower_AMBASSADOR_DE-LUXE.pdf" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -552,6 +558,7 @@
     <Content Include="Views\Catalog\Accessories\Relax\Items\wave.cshtml" />
     <Content Include="Views\Articles\Role.cshtml" />
     <Content Include="Views\Articles\Electric.cshtml" />
+    <Content Include="Views\Catalog\RMS.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

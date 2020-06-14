@@ -113,5 +113,10 @@ namespace WebHost.Controllers
         {
             return View();
         }
+
+        public ActionResult RMS()
+        {
+            return View();
+        }
     }
 }
