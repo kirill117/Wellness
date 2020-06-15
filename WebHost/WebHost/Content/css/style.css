@@ -1430,9 +1430,10 @@ color:#dddddd;
 .map-area{
     position:relative;
     padding-top: 2em;
+    padding-left: 15px;
 }
 .map-canvas {
-    height     : 400px;
+    height: 400px;
 }
 
 /*------------------------------------------------------
