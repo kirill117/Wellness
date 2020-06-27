@@ -58,3 +58,4 @@ WebHost/Web.config
 *.old
 WebHost/Logs/del_nad_log.txt
 *.user
+Материалы/

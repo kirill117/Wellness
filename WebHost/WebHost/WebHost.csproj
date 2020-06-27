@@ -474,6 +474,12 @@
     <Content Include="Content\img\Catalog\RMS\Jumbo_Line_X-Tra.pdf" />
     <Content Include="Content\img\Catalog\RMS\SITZ_BATH.pdf" />
     <Content Include="Content\img\Catalog\RMS\Swiss_shower_AMBASSADOR_DE-LUXE.pdf" />
+    <Content Include="Content\img\Catalog\RMS\EXTREMETIES_TUBS.pdf" />
+    <Content Include="Content\img\Catalog\RMS\Jumbo_Line.pdf" />
+    <Content Include="Content\img\Catalog\RMS\Jumbo_Line_PLATINUM.pdf" />
+    <Content Include="Content\img\Catalog\RMS\Jumbo_Line_VIP.pdf" />
+    <Content Include="Content\img\Catalog\RMS\spa_recomendations.pdf" />
+    <Content Include="Content\img\Catalog\RMS\UNDERWATER_MASSAGE_TUBS.pdf" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
