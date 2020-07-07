@@ -118,5 +118,17 @@ namespace WebHost.Controllers
         {
             return View();
         }
+
+        public ActionResult Unbescheiden(string id)
+        {
+            var actionName = "Unbescheiden/Index";
+
+            if (!string.IsNullOrEmpty(id))
+            {
+                actionName = "Unbescheiden/Items/" + id;
+            }
+
+            return View(actionName);
+        }
     }
 }

@@ -168,7 +168,7 @@ textarea {
     padding: 1em 1.5em;
 }
 
-p, ul, ol, pre, table, blockquote {
+p, ul, ol, pre, blockquote {
   margin-top: 1rem;
 }
 ul ul, ol ol, ul ol, ol ul {
@@ -437,6 +437,7 @@ body {
 .main-nav{
   padding-left: 0px;
   border-top: 1px solid rgba(0, 0, 0, .05);
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
   border-radius: 0;
 }
 .main-nav li{
@@ -791,7 +792,7 @@ offcanvas-menu
 }
 .service-section li:first-child{
   font-size: 1.571em;
-  margin-right: 9.286em;
+  margin-right: 10px;
   padding: 0;
   border:0;
 }
@@ -930,8 +931,23 @@ offcanvas-menu
     margin-right: 0;
     display: block;
   }
+
   .service-section li a {
     font-size: 1rem;
+  }
+
+  .service-section .active a, .service-section .active a:focus, .service-section .active a:hover {
+      border-bottom: none;
+  }
+
+  .service-section li {
+      border-left: none;
+      padding: 0;
+      display:block;
+  }
+
+  .tablist {
+      padding-bottom: 2.5em;
   }
 }
 @media(min-width: 480px) and (max-width: 991px){

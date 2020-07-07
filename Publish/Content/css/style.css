@@ -168,7 +168,7 @@ textarea {
     padding: 1em 1.5em;
 }
 
-p, ul, ol, pre, table, blockquote {
+p, ul, ol, pre, blockquote {
   margin-top: 1rem;
 }
 ul ul, ol ol, ul ol, ol ul {
@@ -791,7 +791,7 @@ offcanvas-menu
 }
 .service-section li:first-child{
   font-size: 1.571em;
-  margin-right: 9.286em;
+  margin-right: 10px;
   padding: 0;
   border:0;
 }
@@ -1430,9 +1430,10 @@ color:#dddddd;
 .map-area{
     position:relative;
     padding-top: 2em;
+    padding-left: 15px;
 }
 .map-canvas {
-    height     : 400px;
+    height: 400px;
 }
 
 /*------------------------------------------------------

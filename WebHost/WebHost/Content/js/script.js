@@ -120,10 +120,7 @@ jQuery(function ($) {
                 cnt = "dialog-order"
             }
 
-            var frm = $("#" + cnt).find('.main-contact-form');
-
-
-           
+            var frm = $("#" + cnt).find('.main-contact-form');   
 
             $.ajax({
                 type: 'POST',
