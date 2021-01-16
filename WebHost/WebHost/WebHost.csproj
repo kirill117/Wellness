@@ -480,6 +480,8 @@
     <Content Include="Content\img\welcome.jpg" />
     <Content Include="Content\img\welcome1.jpg" />
     <Content Include="Content\img\welcome2.jpg" />
+    <Content Include="Content\img\welcomeRMS.png" />
+    <Content Include="Content\img\welcomeUBS.png" />
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Content\js\easing.js" />
     <Content Include="Content\js\hippo-off-canvas.js" />
